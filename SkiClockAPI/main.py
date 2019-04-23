@@ -1293,11 +1293,11 @@ def get_customer_rentals(customer_id):
 
     return jsonify(rentalList)
 
-@app.route('/customers')
-def get_customers():
+@app.route('/customer_name/<customer_id>')
+def get_customers(customer_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    customerQuery = 'SELECT customer_id, first_name FROM customer;'
+    customerQuery = 'SELECT first_name FROM customer WHERE customer_id = {};'.format(customer_id)
 
     cursor = db.cursor()
     cursor.execute(customerQuery)
@@ -1308,6 +1308,10 @@ def get_customers():
     for element in customerData:
         customerList.append(dict(zip(customers,element)))
     cursor.close()
+
+    if customerList == []:
+        noCusDict = {"first_name": "No Customer"}
+        customerList.append(noCusDict)
 
     return jsonify(customerList)
 

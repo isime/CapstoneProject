@@ -8,11 +8,16 @@
 
 import UIKit
 
+struct CustomerName: Decodable {
+    let first_name: String?
+}
+
 class CustomerHomeController: UIViewController {
     var customer_id: Int!
-//    var first_name: String!
+    var first_name: String = "No Customer"
     
-    @IBOutlet weak var WelcomLabel: UILabel!
+    @IBOutlet weak var WelcomeLabel: UILabel!
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "CustomerHomeToSkierList"{
@@ -25,9 +30,41 @@ class CustomerHomeController: UIViewController {
         }
     }
     
+    func setWelcome(){
+        if first_name == "No Customer"{
+            WelcomeLabel.text = "No Customer with ID: " + String(customer_id)
+            WelcomeLabel.textColor = UIColor.red
+        }
+        else {
+         WelcomeLabel.text = "Welcome " + first_name
+            WelcomeLabel.textColor = UIColor.black
+        }
+    }
+    
+    func getName(){
+        let nameUrl = "http://10.0.0.7:5000/customer_name/" + String(customer_id)
+        guard let url = URL(string: nameUrl) else { return }
+        
+        URLSession.shared.dataTask(with: url) { (data, response, err) in
+            
+            guard let data = data else { return }
+            
+            do {
+                let info = try JSONDecoder().decode(CustomerName.self, from: data)
+                print(info)
+                
+                self.first_name = info.first_name ?? "No Customer"
+                
+                DispatchQueue.main.async {
+                    self.setWelcome()
+                }
+            } catch let jsonErr { }
+        }.resume()
+}
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        WelcomLabel.text = "Welcome " + first_name
+        getName()
         // Do any additional setup after loading the view.
     }
     

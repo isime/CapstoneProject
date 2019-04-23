@@ -101,7 +101,7 @@ class SkierInfoController: UIViewController {
     }
     
     func getSkierInfo(){
-        let skierInfoUrl = "http://10.0.0.7:5000/get_skier_info/" + String(skier_id)
+        let skierInfoUrl = "http://10.0.0.7:5000/get_skier_info/" + String(skier_id ?? 0)
         
         guard let url = URL(string: skierInfoUrl) else { return }
         

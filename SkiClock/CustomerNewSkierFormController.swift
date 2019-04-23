@@ -41,6 +41,10 @@ class CustomerNewSkierFormController: UIViewController, UIPickerViewDelegate, UI
             let nextScene = segue.destination as? CustomerSkierListController
             nextScene!.customer_id = self.customer_id
         }
+        if segue.identifier == "newskierToSkierListFinished"{
+            let nextScene = segue.destination as? CustomerSkierListController
+            nextScene!.customer_id = self.customer_id
+        }
     }
     
     func sendCustomerSkier(){

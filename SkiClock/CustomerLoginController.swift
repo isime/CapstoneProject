@@ -8,18 +8,9 @@
 
 import UIKit
 
-struct CustomerLoginInfo: Decodable {
-    let customer_id: Int?
-    let first_name: String?
-}
-
 class CustomerLoginController: UIViewController {
     var customer_id: String = "1"
-    var customers = [CustomerLoginInfo]()
-    var ids = [Int]()
-    var first_name = [String]()
     var realID = false
-    var next_first_name: String = "None"
     let nums: Set<Character> = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     @IBOutlet weak var customerIDEntery: UITextField!
@@ -48,10 +39,6 @@ class CustomerLoginController: UIViewController {
     }
     
     func checkCustomerID(){
-//        let check_id = Int(customer_id) ?? 0
-//        if ids.contains(check_id){
-//        realID = true
-//        }
         if Set(customer_id).isSubset(of: nums){
             realID = true
         }
@@ -60,11 +47,6 @@ class CustomerLoginController: UIViewController {
         }
     }
     
-//    func getFirstName(){
-//        let index = self.ids.index(of: Int(customer_id) ?? 0)
-//        next_first_name = self.first_name[index!]
-//    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "customerLoginToCustomerHome"{
             let nextScene = segue.destination as? CustomerHomeController
@@ -72,34 +54,8 @@ class CustomerLoginController: UIViewController {
         }
     }
     
-    func getCustomerInfo(){
-        let customerUrl = "http://10.0.0.7:5000/customers"
-        
-        guard let url = URL(string: customerUrl) else { return }
-        
-        URLSession.shared.dataTask(with: url) { (data, response, err) in
-            
-            guard let data = data else { return }
-            
-            do {
-                self.customers = try JSONDecoder().decode([CustomerLoginInfo].self, from: data)
-                for info in self.customers{
-                    self.ids.append(info.customer_id ?? 0)
-                    self.first_name.append(info.first_name ?? "N/A")
-                }
-                    
-                    DispatchQueue.main.async {
-                    
-                    }
-            } catch let jsonErr {
-                
-            }
-        }.resume()
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        getCustomerInfo()
         // Do any additional setup after loading the view.
     }
     
