@@ -1,2 +1,2 @@
-# CapstoneProject
-Capstone Project Ski Clock
+# SkiClock
+Senior Project
