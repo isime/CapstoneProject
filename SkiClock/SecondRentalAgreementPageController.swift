@@ -75,6 +75,7 @@ class SecondRentalAgreementPageController: UIViewController {
         super.viewDidLoad()
         setAgreements()
         print(skier_id)
+        print(rental_id)
 
         // Do any additional setup after loading the view.
     }

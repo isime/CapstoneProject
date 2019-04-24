@@ -50,6 +50,13 @@ class AddSkierController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         task.resume()
     }
     
+    func setKeyboards(){
+        SkierAge.keyboardType = .numberPad
+        SkierWeight.keyboardType = .numberPad
+        SkierHeightFT.keyboardType = .numberPad
+        SkierHeightIN.keyboardType = .numberPad
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -58,6 +65,7 @@ class AddSkierController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         self.SkierTypePicker.dataSource = self
         
         SkierTypes = ["1: Beginner", "2: Intermediate", "3: Expert"]
+        self.setKeyboards()
     }
     
     override func didReceiveMemoryWarning() {

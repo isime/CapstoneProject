@@ -58,6 +58,12 @@ class NewCustomerController: UIViewController, UIPickerViewDelegate, UIPickerVie
         
     }
     
+    func setKeyboards(){
+        CusPhon.keyboardType = .numberPad
+        ZipCode.keyboardType = .numberPad
+        NumberOfDaysBox.keyboardType = .numberPad
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,6 +74,7 @@ class NewCustomerController: UIViewController, UIPickerViewDelegate, UIPickerVie
         self.StatePicker.dataSource = self
         
         StatePickerData = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
+        self.setKeyboards()
     }
     
 

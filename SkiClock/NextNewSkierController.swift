@@ -49,6 +49,13 @@ class NextNewSkierController: UIViewController, UIPickerViewDelegate, UIPickerVi
         task.resume()
     }
     
+    func setKeyboards(){
+        NextAge.keyboardType = .numberPad
+        NextWeight.keyboardType = .numberPad
+        NextHeightFT.keyboardType = .numberPad
+        NextHeightIN.keyboardType = .numberPad
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,6 +65,7 @@ class NextNewSkierController: UIViewController, UIPickerViewDelegate, UIPickerVi
         self.NextSkierType.dataSource = self
         
         SkierTypes = ["1: Beginner", "2: Intermediate", "3: Expert"]
+        self.setKeyboards()
     }
     
     override func didReceiveMemoryWarning() {

@@ -56,6 +56,7 @@ class CustomerLoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        customerIDEntery.keyboardType = .numberPad
         // Do any additional setup after loading the view.
     }
     

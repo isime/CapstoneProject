@@ -86,11 +86,19 @@ class CustomerNewSkierFormController: UIViewController, UIPickerViewDelegate, UI
         return SkierTypes[row]
     }
     
+    func setKeyboards(){
+        AgeBox.keyboardType = .numberPad
+        WeightBox.keyboardType = .numberPad
+        HeightFTBox.keyboardType = .numberPad
+        HeightINBox.keyboardType = .numberPad
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.SkierTypePicker.delegate = self
         self.SkierTypePicker.dataSource = self
         self.SkierTypes = ["1: Beginner", "2: Intermediate", "3: Expert"]
+        self.setKeyboards()
         // Do any additional setup after loading the view.
     }
     
