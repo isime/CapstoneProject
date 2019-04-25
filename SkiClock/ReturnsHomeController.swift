@@ -24,8 +24,13 @@ class ReturnsHomeController: UIViewController {
         }
     }
     
+    func setKeyboards(){
+        assetIDBox.keyboardType = .numberPad
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        setKeyboards()
 
         // Do any additional setup after loading the view.
     }

@@ -3,16 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="8550bbe6-da18-46e9-9676-042d52405bff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcodeproj/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/SkiClock.xcodeproj/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AddSkierController.swift" afterPath="$PROJECT_DIR$/SkiClock/AddSkierController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/SkiClock/Base.lproj/Main.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerLoginController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerLoginController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllBootsController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllBootsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllHelmetsController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllHelmetsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllSkisListController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllSkisListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/BootsInController.swift" afterPath="$PROJECT_DIR$/SkiClock/BootsInController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/BootsOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/BootsOutController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerHomeController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerHomeController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerNewSkierFormController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerNewSkierFormController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalSkierInfoController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalSkierInfoController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalsSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalsSkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerSkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/EquipmentListController.swift" afterPath="$PROJECT_DIR$/SkiClock/EquipmentListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/FristSkierReturnController.swift" afterPath="$PROJECT_DIR$/SkiClock/FristSkierReturnController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/HelmetsInController.swift" afterPath="$PROJECT_DIR$/SkiClock/HelmetsInController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/HelmetsOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/HelmetsOutController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/NewCustomerController.swift" afterPath="$PROJECT_DIR$/SkiClock/NewCustomerController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/NextNewSkierController.swift" afterPath="$PROJECT_DIR$/SkiClock/NextNewSkierController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/RentalAgreementController.swift" afterPath="$PROJECT_DIR$/SkiClock/RentalAgreementController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/OverduePickUpsController.swift" afterPath="$PROJECT_DIR$/SkiClock/OverduePickUpsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/OverdueReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/OverdueReturnsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/RentalsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/RentalsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ReturnSkierFormController.swift" afterPath="$PROJECT_DIR$/SkiClock/ReturnSkierFormController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ReturnSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/ReturnSkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ReturnsHomeController.swift" afterPath="$PROJECT_DIR$/SkiClock/ReturnsHomeController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SecondRentalAgreementPageController.swift" afterPath="$PROJECT_DIR$/SkiClock/SecondRentalAgreementPageController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierEquipmentFormContoller.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierEquipmentFormContoller.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierInfoController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierInfoController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkisOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkisOutController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TodaysReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/TodaysReturnsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TomorrowsPickUpsController.swift" afterPath="$PROJECT_DIR$/SkiClock/TomorrowsPickUpsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TomorrowsReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/TomorrowsReturnsListController.swift" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +46,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="305">
@@ -103,6 +127,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="helperFunctions.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SkiClockAPI/helperFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3224">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -141,6 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,8 +193,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,24 +227,24 @@
   <component name="ToolWindowManager">
     <frame x="0" y="32" width="1280" height="768" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -225,6 +259,84 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1556037380536" expanded="true" signature="524:625" ph="SELECT ski_i... SKIS" />
+            <marker date="1556037380536" expanded="true" signature="1229:1329" ph="SELECT ski_i... SKIS" />
+            <marker date="1556037380536" expanded="true" signature="1913:1991" ph="SELECT ski_i... SKIS" />
+            <marker date="1556037380536" expanded="true" signature="2588:2703" ph="SELECT boot_... " />
+            <marker date="1556037380536" expanded="true" signature="3374:3488" ph="SELECT boot_... " />
+            <marker date="1556037380536" expanded="true" signature="4139:4230" ph="SELECT boot_... " />
+            <marker date="1556037380536" expanded="true" signature="4897:4981" ph="SELECT helme... " />
+            <marker date="1556037380536" expanded="true" signature="5639:5722" ph="SELECT helme... " />
+            <marker date="1556037380536" expanded="true" signature="6360:6419" ph="SELECT helme... " />
+            <marker date="1556037380536" expanded="true" signature="7554:7699" ph="INSERT INTO CUSTOMER... " />
+            <marker date="1556037380536" expanded="true" signature="7978:8044" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556037380536" expanded="true" signature="8316:8411" ph="INSERT INTO RENTALS... " />
+            <marker date="1556037380536" expanded="true" signature="9184:9250" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556037380536" expanded="true" signature="9472:9613" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556037380536" expanded="true" signature="9889:9950" ph="SELECT renta... RENTALS" />
+            <marker date="1556037380536" expanded="true" signature="10183:10245" ph="SELECT skier... SKIER_INFO" />
+            <marker date="1556037380536" expanded="true" signature="10481:10552" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
+            <marker date="1556037380536" expanded="true" signature="10780:10847" ph="UPDATE renta... " />
+            <marker date="1556037380536" expanded="true" signature="11299:11535" ph="SELECT last_... customer" />
+            <marker date="1556037380536" expanded="true" signature="12067:12369" ph="SELECT last_... customer" />
+            <marker date="1556037380536" expanded="true" signature="12937:13185" ph="SELECT last_... customer" />
+            <marker date="1556037380536" expanded="true" signature="13669:13850" ph="SELECT * FRO... skier_info" />
+            <marker date="1556037380536" expanded="true" signature="13706:13783" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556037380536" expanded="true" signature="14918:14984" ph="UPDATE skier... " />
+            <marker date="1556037380536" expanded="true" signature="15195:15321" ph="INSERT INTO skier_settings... " />
+            <marker date="1556037380536" expanded="true" signature="15598:15694" ph="UPDATE skier... " />
+            <marker date="1556037380536" expanded="true" signature="15955:16030" ph="UPDATE renta... " />
+            <marker date="1556037380536" expanded="true" signature="16252:16342" ph="INSERT INTO skier_equipment... " />
+            <marker date="1556037380536" expanded="true" signature="16609:16656" ph="UPDATE skis " />
+            <marker date="1556037380536" expanded="true" signature="16869:16919" ph="UPDATE boots... " />
+            <marker date="1556037380536" expanded="true" signature="17134:17188" ph="UPDATE helme... " />
+            <marker date="1556037380536" expanded="true" signature="17724:17816" ph="UPDATE skier... " />
+            <marker date="1556037380536" expanded="true" signature="18102:18214" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556037380536" expanded="true" signature="18649:18793" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556037380536" expanded="true" signature="20807:20892" ph="SELECT skier... skier_info" />
+            <marker date="1556037380536" expanded="true" signature="21509:21572" ph="SELECT first... customer" />
+            <marker date="1556037380536" expanded="true" signature="22194:22274" ph="SELECT renta... rentals" />
+            <marker date="1556037380536" expanded="true" signature="22759:22827" ph="SELECT ski_i... skis" />
+            <marker date="1556037380536" expanded="true" signature="23650:23732" ph="SELECT boot_... " />
+            <marker date="1556037380536" expanded="true" signature="24684:24744" ph="SELECT helme... " />
+            <marker date="1556037380536" expanded="true" signature="25625:25703" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556037380536" expanded="true" signature="26099:26209" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556037380536" expanded="true" signature="27753:27821" ph="SELECT ski_i... skis" />
+            <marker date="1556037380536" expanded="true" signature="28649:28731" ph="SELECT boot_... " />
+            <marker date="1556037380536" expanded="true" signature="29683:29743" ph="SELECT helme... " />
+            <marker date="1556037380536" expanded="true" signature="31639:31735" ph="UPDATE skier... " />
+            <marker date="1556037380536" expanded="true" signature="32007:32055" ph="UPDATE skis " />
+            <marker date="1556037380536" expanded="true" signature="32406:32503" ph="UPDATE skier... " />
+            <marker date="1556037380536" expanded="true" signature="32778:32829" ph="UPDATE boots... " />
+            <marker date="1556037380536" expanded="true" signature="33129:33227" ph="UPDATE skier... " />
+            <marker date="1556037380536" expanded="true" signature="33544:33599" ph="UPDATE helme... " />
+            <marker date="1556037380536" expanded="true" signature="33863:33964" ph="UPDATE skier... " />
+            <marker date="1556037380536" expanded="true" signature="34213:34329" ph="UPDATE renta... " />
+            <marker date="1556037380536" expanded="true" signature="34561:34648" ph="UPDATE renta... " />
+            <marker date="1556037380536" expanded="true" signature="35027:35118" ph="update renta... " />
+            <marker date="1556037380536" expanded="true" signature="35527:35810" ph="SELECT last_... customer" />
+            <marker date="1556037380536" expanded="true" signature="36320:36604" ph="SELECT last_... customer" />
+            <marker date="1556037380536" expanded="true" signature="37339:37623" ph="SELECT last_... customer" />
+            <marker date="1556037380536" expanded="true" signature="38329:38463" ph="SELECT skier... skier_info" />
+            <marker date="1556037380536" expanded="true" signature="39258:39513" ph="SELECT skier... skier_info" />
+            <marker date="1556037380536" expanded="true" signature="39369:39446" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556037380536" expanded="true" signature="40293:40384" ph="SELECT ski_i... skier_equipment" />
+            <marker date="1556037380536" expanded="true" signature="41345:41413" ph="SELECT ski_i... skis" />
+            <marker date="1556037380536" expanded="true" signature="42236:42318" ph="SELECT boot_... " />
+            <marker date="1556037380536" expanded="true" signature="43926:44067" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556037380536" expanded="true" signature="44434:44513" ph="SELECT renta... rentals" />
+            <marker date="1556037380536" expanded="true" signature="45247:45299" ph="SELECT first... customer" />
+            <marker date="1556037380536" expanded="true" signature="45247:45301" ph="SELECT first... customer" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -300,6 +412,14 @@
             <marker date="1556037380536" expanded="true" signature="45247:45299" ph="SELECT first... customer" />
             <marker date="1556037380536" expanded="true" signature="45247:45301" ph="SELECT first... customer" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkiClockAPI/helperFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3224">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
