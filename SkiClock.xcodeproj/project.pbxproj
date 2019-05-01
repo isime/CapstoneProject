@@ -18,6 +18,8 @@
 		AC29AB6321B4F49E0049C079 /* SkiClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC29AB6221B4F49E0049C079 /* SkiClockUITests.swift */; };
 		AC464C7A223494F800F28265 /* AddSkierController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC464C79223494F800F28265 /* AddSkierController.swift */; };
 		AC464C7E2234B6F300F28265 /* NextNewSkierController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC464C7D2234B6F300F28265 /* NextNewSkierController.swift */; };
+		AC776D1222799C5800134A22 /* TransferController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC776D1122799C5800134A22 /* TransferController.swift */; };
+		AC776D1422799F4000134A22 /* TransferCheckInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC776D1322799F4000134A22 /* TransferCheckInController.swift */; };
 		AC7D040C2255496D00721EAF /* FristSkierReturnController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7D040B2255496D00721EAF /* FristSkierReturnController.swift */; };
 		AC985A7B22528FEF00826F4A /* ReturnsHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC985A7A22528FEF00826F4A /* ReturnsHomeController.swift */; };
 		ACD0E8902230CAAD0047981D /* NewCustomerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD0E88F2230CAAD0047981D /* NewCustomerController.swift */; };
@@ -95,6 +97,8 @@
 		AC29AB6421B4F49E0049C079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC464C79223494F800F28265 /* AddSkierController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSkierController.swift; sourceTree = "<group>"; };
 		AC464C7D2234B6F300F28265 /* NextNewSkierController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextNewSkierController.swift; sourceTree = "<group>"; };
+		AC776D1122799C5800134A22 /* TransferController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferController.swift; sourceTree = "<group>"; };
+		AC776D1322799F4000134A22 /* TransferCheckInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferCheckInController.swift; sourceTree = "<group>"; };
 		AC7D040B2255496D00721EAF /* FristSkierReturnController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristSkierReturnController.swift; sourceTree = "<group>"; };
 		AC985A7A22528FEF00826F4A /* ReturnsHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnsHomeController.swift; sourceTree = "<group>"; };
 		ACD0E88F2230CAAD0047981D /* NewCustomerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCustomerController.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 		AC29AB4121B4F49D0049C079 /* SkiClock */ = {
 			isa = PBXGroup;
 			children = (
+				AC776D1122799C5800134A22 /* TransferController.swift */,
 				ACD271022264CD24002B9C5B /* CustomerRentalsSkierListController.swift */,
 				ACD270FC226488CF002B9C5B /* SkierInfoController.swift */,
 				ACD270FA22646FEB002B9C5B /* CustomerSkierListController.swift */,
@@ -222,6 +227,7 @@
 				AC29AB4221B4F49D0049C079 /* AppDelegate.swift */,
 				AC29AB4421B4F49D0049C079 /* ViewController.swift */,
 				AC29AB4621B4F49D0049C079 /* Main.storyboard */,
+				AC776D1322799F4000134A22 /* TransferCheckInController.swift */,
 				ACD2710822651632002B9C5B /* SecondRentalAgreementPageController.swift */,
 				ACD27106226501B6002B9C5B /* RentalAgreementController.swift */,
 				ACD271042264DDD3002B9C5B /* CustomerRentalSkierInfoController.swift */,
@@ -279,7 +285,6 @@
 				2D76F8CAF12BE00894AAEFBA /* Pods-SkiClockUITests.debug.xcconfig */,
 				DF3BA8B0A540A2E0124A7144 /* Pods-SkiClockUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -515,6 +520,7 @@
 				ACF202F1223C7A6700FC3B68 /* SkisOutController.swift in Sources */,
 				ACF20301223F3D9500FC3B68 /* AllHelmetsController.swift in Sources */,
 				ACD270EB2262F2FD002B9C5B /* EmployeeLoginController.swift in Sources */,
+				AC776D1222799C5800134A22 /* TransferController.swift in Sources */,
 				ACF20303223F3F7400FC3B68 /* HelmetsOutController.swift in Sources */,
 				ACD270F522646040002B9C5B /* CustomerLoginController.swift in Sources */,
 				ACD2710922651632002B9C5B /* SecondRentalAgreementPageController.swift in Sources */,
@@ -550,6 +556,7 @@
 				ACF202F9223F2EE500FC3B68 /* AllBootsController.swift in Sources */,
 				ACF2030B2240162400FC3B68 /* RentalHomeController.swift in Sources */,
 				ACF202FF223F39EA00FC3B68 /* HelmetsInController.swift in Sources */,
+				AC776D1422799F4000134A22 /* TransferCheckInController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

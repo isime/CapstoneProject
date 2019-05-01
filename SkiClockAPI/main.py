@@ -1322,5 +1322,103 @@ def get_skier_code_din(height, weight, age, skier_type, sole_length):
     return jsonify(infoDict)
 
 
+@app.route('/get_transfer/<asset_id>')
+def get_transfer(asset_id):
+    returnDict = {"equipment": "No Asset With"}
+
+    db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
+
+    skiQuery = 'SELECT ski_id, length, manufacturer, model, original_store, current_store FROM skis WHERE ski_id = {};'.format(asset_id)
+    cursor = db.cursor()
+    cursor.execute(skiQuery)
+    ski = [ski[0] for ski in cursor.description]
+
+    skiData = cursor.fetchall()
+    skiList = []
+    for element in skiData:
+        skiList.append(dict(zip(ski, element)))
+
+    if skiList != []:
+        returnDict = skiList[0]
+        returnDict["equipment"] = "Skis"
+        return jsonify(returnDict)
+    cursor.close()
+
+    db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
+
+    bootQuery = 'SELECT boot_id, manufacturer, model, size, sole_length, original_store, current_store FROM boots WHERE boot_id = {};'.format(asset_id)
+    cursor = db.cursor()
+    cursor.execute(bootQuery)
+    boot = [boot[0] for boot in cursor.description]
+
+    bootData = cursor.fetchall()
+    bootList = []
+    for element in bootData:
+        bootList.append(dict(zip(boot, element)))
+
+    if bootList != []:
+        bootList[0]["boot_size"] = bootList[0].pop("size")
+        returnDict = bootList[0]
+        returnDict["equipment"] = "Boots"
+        return jsonify(returnDict)
+    cursor.close()
+
+    db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
+
+    helmetQuery = 'SELECT helmet_id, size, color, original_store, current_store FROM helmet WHERE helmet_id = {};'.format(asset_id)
+    cursor = db.cursor()
+    cursor.execute(helmetQuery)
+    helmet = [helmet[0] for helmet in cursor.description]
+
+    helmetData = cursor.fetchall()
+    helmetList = []
+    for element in helmetData:
+        helmetList.append(dict(zip(helmet, element)))
+
+    if helmetList != []:
+        helmetList[0]["helmet_size"] = helmetList[0].pop("size")
+        returnDict = helmetList[0]
+        returnDict["equipment"] = "Helmet"
+        return jsonify(returnDict)
+    cursor.close()
+
+    if cursor is not None:
+        cursor.close()
+    return jsonify(returnDict)
+
+@app.route('/transfer_complete', methods=['Post'])
+def transfer_complete():
+    skierJson = request.get_json(force=True)
+
+    asset_id = int(str(skierJson["asset_id"]))
+    store_id = int(str(skierJson["store_id"]))
+    transfered = str(skierJson["transfered"])
+    equipment = str(skierJson["equipment"])
+
+    if transfered == "true":
+        if equipment == "Skis":
+            db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
+            skisQuery = 'UPDATE skis set current_store = {} WHERE ski_id = {};'.format(store_id, asset_id)
+            cursor = db.cursor()
+            cursor.execute(skisQuery)
+            db.commit()
+
+        elif equipment == "Boots":
+            db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
+            bootsQuery = 'UPDATE boots set current_store = {} WHERE boot_id = {};'.format(store_id, asset_id)
+            cursor = db.cursor()
+            cursor.execute(bootsQuery)
+            db.commit()
+
+        elif equipment == "Helmet":
+            db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
+            skisQuery = 'UPDATE helmet set current_store = {} WHERE helmet_id = {};'.format(store_id, asset_id)
+            cursor = db.cursor()
+            cursor.execute(skisQuery)
+            db.commit()
+
+
+    return jsonify("done")
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)

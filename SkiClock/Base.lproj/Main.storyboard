@@ -1429,6 +1429,18 @@
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="equipmentHomeToEmployeeDash" id="GMK-xS-aBO"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TransferButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPO-ti-wYU">
+                                <rect key="frame" x="826" y="712" width="178" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Transfer Recieved">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KOY-bf-D7b" kind="show" identifier="equipmentHomeToTransfer" id="RTC-8O-mbd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="qZV-DM-n9G"/>
@@ -1436,7 +1448,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vck-6X-O8l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="863"/>
+            <point key="canvasLocation" x="137.6953125" y="862.5"/>
         </scene>
         <!--Boots In Controller-->
         <scene sceneID="shD-BA-xU8">
@@ -3892,6 +3904,196 @@
             </objects>
             <point key="canvasLocation" x="-664.453125" y="2303.90625"/>
         </scene>
+        <!--Transfer Controller-->
+        <scene sceneID="cOE-8y-Zcb">
+            <objects>
+                <viewController id="KOY-bf-D7b" customClass="TransferController" customModule="SkiClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5np-FR-KXn" customClass="trans">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TransferSearchToEquipment" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pG8-J7-3CC">
+                                <rect key="frame" x="681" y="717" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Rentals Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="trnasferSearchToEquipment" id="V5K-e8-Zlc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TransferSearchToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fE-fJ-dlM">
+                                <rect key="frame" x="226" y="717" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="transferSearchToEmployeeDash" id="xKo-Hc-uea"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="assetIDSearchTransfer" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Asset ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mSD-Hr-6pm">
+                                <rect key="frame" x="417" y="369" width="191" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SubmitTransferSearch" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7k-yS-h6W">
+                                <rect key="frame" x="681" y="369" width="117" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SubmitTransferSearchButtonPress:" destination="KOY-bf-D7b" eventType="touchUpInside" id="3Ug-gp-zXn"/>
+                                    <action selector="searchForReturn:" destination="Avb-7X-57l" eventType="touchUpInside" id="68j-vV-uCJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invalid Customer ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJt-F6-6ad">
+                                <rect key="frame" x="340" y="173" width="344" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Dmh-Ur-T1W"/>
+                    </view>
+                    <connections>
+                        <outlet property="ErrorLabel" destination="tJt-F6-6ad" id="vTr-M2-Iq0"/>
+                        <outlet property="assestIDBox" destination="mSD-Hr-6pm" id="7dF-oM-mAI"/>
+                        <segue destination="0lY-On-8kH" kind="show" identifier="transferSearchToTransferCheckIn" id="QYd-hS-5dX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0oa-pu-LCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-664" y="3031"/>
+        </scene>
+        <!--Transfer Check In Controller-->
+        <scene sceneID="yr5-HG-RYb">
+            <objects>
+                <viewController id="0lY-On-8kH" customClass="TransferCheckInController" customModule="SkiClock" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cbT-3l-X8Q">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byg-0j-I0e">
+                                <rect key="frame" x="20" y="198" width="519" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fch-KV-t71">
+                                <rect key="frame" x="20" y="277" width="519" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9s-TT-bEe">
+                                <rect key="frame" x="20" y="356" width="519" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yda-Tl-qfs">
+                                <rect key="frame" x="20" y="435" width="519" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ry7-VC-PUo">
+                                <rect key="frame" x="20" y="514" width="519" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVH-Yw-3l7">
+                                <rect key="frame" x="20" y="593" width="519" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="transferRecieved" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLg-7o-7QB">
+                                <rect key="frame" x="735" y="348" width="188" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Recieved">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BootsReturnedButton:" destination="RLb-GG-6RH" eventType="touchUpInside" id="m7w-nc-7CS"/>
+                                    <action selector="RecievedButtonPress:" destination="0lY-On-8kH" eventType="touchUpInside" id="tHH-FB-VDA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TransferCheckInToTransferSearch" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cY4-r6-j3k">
+                                <rect key="frame" x="16" y="712" width="128" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Transfer Search">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="TransferSearchButtonPress:" destination="0lY-On-8kH" eventType="touchUpInside" id="jpx-4m-j1J"/>
+                                    <segue destination="KOY-bf-D7b" kind="show" identifier="transferCheckInTOTransferSearch" id="ioP-q4-HK5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TransferCheckInToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NvY-Ze-G8J">
+                                <rect key="frame" x="453" y="712" width="120" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="HomeButtonPress:" destination="0lY-On-8kH" eventType="touchUpInside" id="zrb-jh-eMp"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="transferCheckInToEmployeeDash" id="gq9-dg-o6y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TransferCheckinToEquipment" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be8-pg-41d">
+                                <rect key="frame" x="873" y="712" width="117" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Equipment">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="EquipmentHomeButtonPress:" destination="0lY-On-8kH" eventType="touchUpInside" id="NCL-TW-LHL"/>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="transferCheckInTOEquipmentHome" id="Utz-A4-GKy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="fRp-pV-KCN"/>
+                    </view>
+                    <connections>
+                        <outlet property="EquipmentLabel" destination="byg-0j-I0e" id="PQd-eG-FiA"/>
+                        <outlet property="IDLabel" destination="Fch-KV-t71" id="RM4-fg-5Jh"/>
+                        <outlet property="Label3" destination="l9s-TT-bEe" id="7GV-FL-1QM"/>
+                        <outlet property="Label4" destination="yda-Tl-qfs" id="nvv-Jh-DMQ"/>
+                        <outlet property="Label5" destination="ry7-VC-PUo" id="exP-6i-bpv"/>
+                        <outlet property="Label6" destination="GVH-Yw-3l7" id="IMS-8E-NAe"/>
+                        <outlet property="RecievedButton" destination="gLg-7o-7QB" id="uTI-Jv-b2v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DQJ-tu-gd3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-664.453125" y="3766.40625"/>
+        </scene>
         <!--New Customer Controller-->
         <scene sceneID="pIH-rp-1WN">
             <objects>
@@ -4127,9 +4329,6 @@
                                 <state key="normal" title="Equipment">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="allHelmetsToEquipmentHome" id="Li4-it-GQn"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="HelmetsInToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bx1-OE-i0b">
                                 <rect key="frame" x="599" y="711" width="120" height="36"/>
@@ -4680,25 +4879,26 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="hYr-3n-ksN"/>
-        <segue reference="V3b-gx-NDx"/>
-        <segue reference="OPU-58-jv3"/>
-        <segue reference="Daa-o8-Fa1"/>
-        <segue reference="CUR-Mn-uLW"/>
-        <segue reference="ybZ-ul-uKM"/>
-        <segue reference="Ppg-Th-0zI"/>
-        <segue reference="9TI-AC-OZ1"/>
-        <segue reference="lUW-wJ-78P"/>
-        <segue reference="XcC-BU-neU"/>
+        <segue reference="gIG-ap-UUu"/>
+        <segue reference="gKw-OD-kbf"/>
+        <segue reference="i2r-Ea-1ft"/>
+        <segue reference="ioP-q4-HK5"/>
+        <segue reference="wYY-Kq-c5b"/>
+        <segue reference="fK9-Id-ms5"/>
+        <segue reference="mxB-0M-Ulv"/>
+        <segue reference="fZ7-8k-DmC"/>
+        <segue reference="Y38-iN-Rqn"/>
+        <segue reference="EYM-Gg-6kt"/>
         <segue reference="4oZ-nI-BeG"/>
         <segue reference="Ihp-Fv-UPA"/>
         <segue reference="WU9-pV-COP"/>
         <segue reference="E3U-wc-mgt"/>
         <segue reference="jqq-QD-69O"/>
-        <segue reference="iCG-eR-lsL"/>
-        <segue reference="vyn-Bo-3er"/>
-        <segue reference="u2F-cW-NK3"/>
-        <segue reference="17g-Yu-QGp"/>
-        <segue reference="qNj-vx-VVr"/>
+        <segue reference="8Br-3m-6yg"/>
+        <segue reference="gli-9Y-JyR"/>
+        <segue reference="weN-rC-xco"/>
+        <segue reference="Utz-A4-GKy"/>
+        <segue reference="gq9-dg-o6y"/>
         <segue reference="HNo-u8-9Qq"/>
         <segue reference="FVS-K6-FRE"/>
         <segue reference="jZJ-cZ-NNI"/>
