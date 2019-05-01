@@ -41,6 +41,18 @@ class EquipmentHomeController: UIViewController {
             let nextScene = segue.destination as? ViewController
             nextScene!.store_id = store_id
         }
+        if segue.identifier == "equipmentHomeToHelmetsIn"{
+            let nextScene = segue.destination as? HelmetsInController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "equipmentHomeToHelmetsOut"{
+            let nextScene = segue.destination as? HelmetsOutController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "equipmentHomeToAllHelmets"{
+            let nextScene = segue.destination as? AllHelmetsController
+            nextScene!.store_id = store_id
+        }
     }
 
     override func viewDidLoad() {

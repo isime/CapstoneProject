@@ -9,13 +9,32 @@
 import UIKit
 
 class AllHelmetsController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+    var store_id: Int!
     var helmets = [Helmet]()
     var id = [Int]()
     var size = [String]()
     var color = [String]()
 
     @IBOutlet weak var AllHelmetsTable: UITableView!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "allHelmetsToHelmetsOut"{
+            let nextScene = segue.destination as? HelmetsOutController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allHemetsToEquipmentHome"{
+            let nextScene = segue.destination as? EquipmentHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allHelmetsToHelmetsIn"{
+            let nextScene = segue.destination as? HelmetsInController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "AllHelmetsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let allHelmetsCell = tableView.dequeueReusableCell(withIdentifier: "allHelmetsCell"/*Identifier*/, for: indexPath as IndexPath)
@@ -33,7 +52,7 @@ class AllHelmetsController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func getEquipment(){
-        let equipmentUrl = "http://10.0.0.7:5000/all_helmets"
+        let equipmentUrl = "http://10.0.0.7:5000/all_helmets/" + String(store_id)
         guard let url = URL(string: equipmentUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

@@ -9,13 +9,32 @@
 import UIKit
 
 class HelmetsOutController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+    var store_id: Int!
     var helmets = [Helmet]()
     var id = [Int]()
     var size = [String]()
     var color = [String]()
 
     @IBOutlet weak var HelmetsOutTable: UITableView!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "helmetsOutToAllHelmets"{
+            let nextScene = segue.destination as? AllHelmetsController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "helmetsOutToEquipmentHome"{
+            let nextScene = segue.destination as? EquipmentHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "helmetsOutToHelmetsIn"{
+            let nextScene = segue.destination as? HelmetsInController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "helmetsOutToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let helmetsOutCell = tableView.dequeueReusableCell(withIdentifier: "helmetsOutCell"/*Identifier*/, for: indexPath as IndexPath)
@@ -33,7 +52,7 @@ class HelmetsOutController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func getEquipment(){
-        let equipmentUrl = "http://10.0.0.7:5000/currently_out_helmets"
+        let equipmentUrl = "http://10.0.0.7:5000/currently_out_helmets/" + String(store_id)
         guard let url = URL(string: equipmentUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in
