@@ -19,6 +19,10 @@ class ViewController: UIViewController{
             let nextScene = segue.destination as? EquipmentHomeController
             nextScene!.store_id = store_id
         }
+        if segue.identifier == "employeeDashToNewCustomer"{
+            let nextScene = segue.destination as? NewCustomerController
+            nextScene!.store_id = store_id
+        }
     }
     
     override func viewDidLoad() {

@@ -11,7 +11,7 @@ import UIKit
 class AddSkierController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
     var SkierTypes: [String] = [String]()
-    
+    var store_id: Int!
     @IBOutlet weak var SkierTypePicker: UIPickerView!
     @IBOutlet weak var SkierFName: UITextField!
     @IBOutlet weak var SkeirLName: UITextField!
@@ -55,6 +55,21 @@ class AddSkierController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         SkierWeight.keyboardType = .numberPad
         SkierHeightFT.keyboardType = .numberPad
         SkierHeightIN.keyboardType = .numberPad
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "addSkierToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "addSkierToEmployeeHome"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "addSkierToNextNewSkier"{
+            let nextScene = segue.destination as? NextNewSkierController
+            nextScene!.store_id = store_id
+        }
     }
     
     override func viewDidLoad() {

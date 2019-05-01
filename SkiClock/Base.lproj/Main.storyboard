@@ -1260,7 +1260,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="OZY-Fg-P9b" kind="show" id="GWk-WJ-O3O"/>
+                                    <segue destination="OZY-Fg-P9b" kind="show" identifier="employeeDashToNewCustomer" id="GWk-WJ-O3O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToEquipmentList" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWv-Eb-eOt">
@@ -3906,7 +3906,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="V7b-MN-DnW"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="newCusToEmployeeDash" id="V7b-MN-DnW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SubmitCusInfo" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDl-R2-PUi">
@@ -3919,7 +3919,7 @@
                                 </state>
                                 <connections>
                                     <action selector="SubmitCusInfo:" destination="OZY-Fg-P9b" eventType="touchUpInside" id="pBb-NH-Tcj"/>
-                                    <segue destination="sZU-k4-DBn" kind="show" id="2kX-0l-2M3"/>
+                                    <segue destination="sZU-k4-DBn" kind="show" identifier="newCusToNewSkier" id="2kX-0l-2M3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="FNameLabel" text="First Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1N-8F-i3K">
@@ -4452,7 +4452,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="8Fc-sg-wZd"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="addSkierToEmployeeHome" id="8Fc-sg-wZd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="FinishedNewSkierInfo" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Z5-Kk-yl5">
@@ -4465,7 +4465,7 @@
                                 </state>
                                 <connections>
                                     <action selector="sendSkierInfo:" destination="sZU-k4-DBn" eventType="touchUpInside" id="0uR-bA-4Eh"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="KmD-H4-Ieo"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="addSkierToEmployeeDash" id="KmD-H4-Ieo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AddNextSkierNewSkierInfo" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UuW-5d-FLC">
@@ -4478,7 +4478,7 @@
                                 </state>
                                 <connections>
                                     <action selector="sendSkierInfo:" destination="sZU-k4-DBn" eventType="touchUpInside" id="VhF-aZ-Wnw"/>
-                                    <segue destination="PNg-Qx-Yeh" kind="show" id="9T5-se-fzQ"/>
+                                    <segue destination="PNg-Qx-Yeh" kind="show" identifier="addSkierToNextNewSkier" id="9T5-se-fzQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4625,7 +4625,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="9ov-pg-mSw"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="nextNewSkierToEmployeeHome" id="9ov-pg-mSw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="FinishedNextNewSkierInfo" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6J-bS-tSx">
@@ -4639,7 +4639,7 @@
                                 <connections>
                                     <action selector="sendNextSkier:" destination="PNg-Qx-Yeh" eventType="touchUpInside" id="GKE-TR-Yt6"/>
                                     <action selector="sendSkierInfo:" destination="sZU-k4-DBn" eventType="touchUpInside" id="2Ig-LP-A7s"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="6U0-Hi-6xX"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="nextSkierToEmployeeDash" id="6U0-Hi-6xX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AddSkierNextNewSkierInfo" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3M-6H-zEX">
@@ -4676,7 +4676,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2kX-0l-2M3"/>
+        <segue reference="hYr-3n-ksN"/>
         <segue reference="V3b-gx-NDx"/>
         <segue reference="OPU-58-jv3"/>
         <segue reference="Daa-o8-Fa1"/>
@@ -4695,7 +4695,7 @@
         <segue reference="vyn-Bo-3er"/>
         <segue reference="u2F-cW-NK3"/>
         <segue reference="17g-Yu-QGp"/>
-        <segue reference="gf9-tM-Ok8"/>
+        <segue reference="9ov-pg-mSw"/>
         <segue reference="HNo-u8-9Qq"/>
         <segue reference="FVS-K6-FRE"/>
         <segue reference="jZJ-cZ-NNI"/>

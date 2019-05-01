@@ -10,7 +10,7 @@ import UIKit
 
 class NewCustomerController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
 
-    
+    var store_id: Int!
     @IBOutlet weak var StatePicker: UIPickerView!
     
     var StatePickerData: [String] = [String]()
@@ -38,7 +38,7 @@ class NewCustomerController: UIViewController, UIPickerViewDelegate, UIPickerVie
         
     
         
-        let cusJson: [String: String] = ["fname": FName, "lname": LName, "address": Address, "state": statePicked, "zip": Zip, "city": City, "phone": Phone, "email": Email, "days": days]
+        let cusJson: [String: String] = ["fname": FName, "lname": LName, "address": Address, "state": statePicked, "zip": Zip, "city": City, "phone": Phone, "email": Email, "days": days, "store_id": String(store_id)]
         
         let jsonData = try? JSONSerialization.data(withJSONObject: cusJson)
         
@@ -62,6 +62,17 @@ class NewCustomerController: UIViewController, UIPickerViewDelegate, UIPickerVie
         CusPhon.keyboardType = .numberPad
         ZipCode.keyboardType = .numberPad
         NumberOfDaysBox.keyboardType = .numberPad
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "newCusToNewSkier"{
+            let nextScene = segue.destination as? AddSkierController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "newCusToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
     }
     
     

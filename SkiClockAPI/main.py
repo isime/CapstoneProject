@@ -287,6 +287,7 @@ def add_new_customer():
     phone = str(cusJson["phone"])
     email = str(cusJson["email"])
     days = int(str(cusJson["days"]))
+    store_id = int(str(cusJson["store_id"]))
 
     date = datetime.datetime.now()
 
@@ -310,7 +311,7 @@ def add_new_customer():
 
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
     due_date = helperFunctions.get_due_date(days)
-    rentalQuery = 'INSERT INTO RENTALS(customer_id, total_skiers, date_out, due_date) VALUES ("{}", 0, "{}", "{}");'.format(cusID, today, due_date)
+    rentalQuery = 'INSERT INTO RENTALS(customer_id, total_skiers, date_out, due_date, store_id) VALUES ("{}", 0, "{}", "{}", {});'.format(cusID, today, due_date, store_id)
     print(rentalQuery)
     cursor = db.cursor()
     cursor.execute(rentalQuery)
