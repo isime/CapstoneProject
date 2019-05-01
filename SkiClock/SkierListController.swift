@@ -30,6 +30,7 @@ class SkierListController: UIViewController, UITableViewDataSource, UITableViewD
     var skier_type = [Int]()
     var rental_id: Int!
     var customer_id: Int!
+    var store_id: Int!
 
     @IBOutlet weak var SkiersTable: UITableView!
     
@@ -77,6 +78,27 @@ class SkierListController: UIViewController, UITableViewDataSource, UITableViewD
             nextScene!.skier_id = skierID
             nextScene!.rental_id = rentalID
             nextScene!.customer_id = customerID
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skierListToTomorrowsPickUps"{
+            let nextScene = segue.destination as? TomorrowsPickUpsController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skierListToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skierListToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skierListToTodaysPickUps"{
+            let nextScene = segue.destination as? RentalsListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skierListToOverduePickUps"{
+            let nextScene = segue.destination as? OverduePickUpsController
+            nextScene!.store_id = store_id
         }
     }
     

@@ -14,6 +14,7 @@ class OverduePickUpsController: UIViewController, UITableViewDataSource, UITable
     var last_name = [String]()
     var first_name = [String]()
     var customer_id = [Int]()
+    var store_id: Int!
     
     @IBOutlet weak var OverdueRentalTable: UITableView!
     
@@ -41,11 +42,20 @@ class OverduePickUpsController: UIViewController, UITableViewDataSource, UITable
             let indexPath = self.OverdueRentalTable.indexPathForSelectedRow
             nextScene!.rental_id = self.rental_id[indexPath!.row]
             nextScene!.customer_id = self.customer_id[indexPath!.row]
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "overduePickUpsToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "overduePickUpsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
     
     func getOverdueRentals(){
-        let overdueRentalUrl = "http://10.0.0.7:5000/overdue_rentals"
+        let overdueRentalUrl = "http://10.0.0.7:5000/overdue_rentals/" + String(store_id)
         guard let url = URL(string: overdueRentalUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

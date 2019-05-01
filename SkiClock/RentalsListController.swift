@@ -21,6 +21,7 @@ class RentalsListController: UIViewController, UITableViewDataSource, UITableVie
     var last_name = [String]()
     var first_name = [String]()
     var cus_id = [Int]()
+    var store_id: Int!
 
     @IBOutlet weak var RentalsTable: UITableView!
     
@@ -52,13 +53,22 @@ class RentalsListController: UIViewController, UITableViewDataSource, UITableVie
             let customer_id = cus_id[indexPath!.row]
             nextScene!.customer_id = customer_id
             nextScene!.rental_id = rental_id
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "todaysPickUpsToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "todaysPickUpsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
     
     
     
     func getRentals(){
-        let rentalsUrl = "http://10.0.0.7:5000/todays_rentals"
+        let rentalsUrl = "http://10.0.0.7:5000/todays_rentals/" + String(store_id)
         guard let url = URL(string: rentalsUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

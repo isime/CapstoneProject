@@ -11,6 +11,7 @@ import UIKit
 class RentalAgreementController: UIViewController {
     var skier_id: Int!
     var rental_id: Int!
+    var store_id: Int!
 
     @IBOutlet weak var RentalAgreementLabel1: UILabel!
     @IBOutlet weak var RentalAgreementLabel2: UILabel!
@@ -72,6 +73,7 @@ class RentalAgreementController: UIViewController {
             let nextScene = segue.destination as? SecondRentalAgreementPageController
             nextScene!.skier_id = self.skier_id
             nextScene!.rental_id = self.rental_id
+            nextScene!.store_id = store_id
         }
     }
     

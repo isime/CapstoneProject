@@ -11,6 +11,7 @@ import UIKit
 class SecondRentalAgreementPageController: UIViewController {
     var skier_id: Int!
     var rental_id: Int!
+    var store_id: Int!
 
     @IBOutlet weak var RentalAgreement9: UILabel!
     @IBOutlet weak var RentalAgreement10: UILabel!
@@ -68,15 +69,19 @@ class SecondRentalAgreementPageController: UIViewController {
         if segue.identifier == "SecondRentalAgreeMentToSkierList"{
             let nextScene = segue.destination as? SkierListController
             nextScene!.rental_id = self.rental_id
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "SecondRentalAgreementToFirstRentalAgreement"{
+            let nextScene = segue.destination as? RentalAgreementController
+            nextScene!.store_id = store_id
+            nextScene!.rental_id = rental_id
+            nextScene!.skier_id = skier_id
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setAgreements()
-        print(skier_id)
-        print(rental_id)
-
         // Do any additional setup after loading the view.
     }
     

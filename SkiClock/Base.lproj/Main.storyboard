@@ -1894,7 +1894,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="I3k-L5-WpH"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="overdueReturnsToEmployeeDash" id="I3k-L5-WpH"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="OverdueReturnsToReturnSearch" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JoY-LK-V07">
@@ -1971,7 +1971,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="46g-04-VfW"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="overduePickUpsToRentalsHome" id="46g-04-VfW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="HomeButtonTodaysRentals" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lmc-OP-07b">
@@ -1982,7 +1982,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Oiy-dk-bx3"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="overduePickUpsToEmployeeDash" id="Oiy-dk-bx3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2035,7 +2035,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="aYm-Rr-ROK"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="todaysPickUpsToRentalsHome" id="aYm-Rr-ROK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="HomeButtonTodaysRentals" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z2f-uQ-Awt">
@@ -2046,7 +2046,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="A4k-xe-bGS"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="todaysPickUpsToEmployeeDash" id="A4k-xe-bGS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2099,7 +2099,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="vde-nJ-3hj"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="tomorrowsPickUpsToRentalsHome" id="vde-nJ-3hj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="HomeButtonTomorrowsRentals" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyD-u2-fkH">
@@ -2110,7 +2110,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="3W9-OB-2qU"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="tomorrowsPickUpsToEmployeeDash" id="3W9-OB-2qU"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2239,7 +2239,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="9TI-AC-OZ1"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="skierEquipmentFormToRentalsHome" id="9TI-AC-OZ1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="HomeButtonSkierEquipmentForm" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWO-24-kL9">
@@ -2250,7 +2250,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="qNj-vx-VVr"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="skierEquipmentFormToEmployeeDash" id="qNj-vx-VVr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiM-3L-Aur">
@@ -2593,7 +2593,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="YsV-ep-bae"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="skierListToEmployeeDash" id="YsV-ep-bae"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkierListToOverdueRentalList" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iQ1-kD-Fao">
@@ -2604,7 +2604,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vag-61-qsx" kind="show" id="jqq-QD-69O"/>
+                                    <segue destination="vag-61-qsx" kind="show" identifier="skierListToOverduePickUps" id="jqq-QD-69O"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkierListToTomorrowsRentalList" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taa-G0-Hxv">
@@ -2615,7 +2615,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EYy-9Q-Vvb" kind="show" id="WU9-pV-COP"/>
+                                    <segue destination="EYy-9Q-Vvb" kind="show" identifier="skierListToTomorrowsPickUps" id="WU9-pV-COP"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sx3-n6-YKv">
@@ -2648,7 +2648,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="j4V-jA-HT8"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="skierListToRentalsHome" id="j4V-jA-HT8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkierListToRentalList" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VWb-0R-PI3">
@@ -2659,7 +2659,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="b22-kI-8bh" kind="show" id="E3U-wc-mgt"/>
+                                    <segue destination="b22-kI-8bh" kind="show" identifier="skierListToTodaysPickUps" id="E3U-wc-mgt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3536,7 +3536,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="b22-kI-8bh" kind="show" id="O9x-ke-PEf"/>
+                                    <segue destination="b22-kI-8bh" kind="show" identifier="rentalsHomeToTodaysPickUps" id="O9x-ke-PEf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToOverduePickUps" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4D-p1-ZLj">
@@ -3548,7 +3548,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vag-61-qsx" kind="show" id="PZp-mm-aaM"/>
+                                    <segue destination="vag-61-qsx" kind="show" identifier="rentalsHomeToOverduePickUps" id="PZp-mm-aaM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="HomeButtonRentalsHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohW-s4-R90">
@@ -3559,7 +3559,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="ii1-Fy-U2D"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="rentalsHomeToEmployeeDash" id="ii1-Fy-U2D"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToReturns" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziH-Tb-Yka">
@@ -3595,7 +3595,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EYy-9Q-Vvb" kind="show" id="Pzt-xP-fnb"/>
+                                    <segue destination="EYy-9Q-Vvb" kind="show" identifier="rentalsHomeToTomorrowsPickUps" id="Pzt-xP-fnb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToTodaysReturns" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GT2-Ha-hsp">
@@ -4686,19 +4686,19 @@
         <segue reference="CUR-Mn-uLW"/>
         <segue reference="ybZ-ul-uKM"/>
         <segue reference="Ppg-Th-0zI"/>
-        <segue reference="8In-xw-4Na"/>
-        <segue reference="OK1-vz-Fuw"/>
+        <segue reference="9TI-AC-OZ1"/>
+        <segue reference="lUW-wJ-78P"/>
         <segue reference="XcC-BU-neU"/>
-        <segue reference="TYs-IV-HNd"/>
+        <segue reference="4oZ-nI-BeG"/>
         <segue reference="Ihp-Fv-UPA"/>
-        <segue reference="Pzt-xP-fnb"/>
-        <segue reference="O9x-ke-PEf"/>
-        <segue reference="PZp-mm-aaM"/>
+        <segue reference="WU9-pV-COP"/>
+        <segue reference="E3U-wc-mgt"/>
+        <segue reference="jqq-QD-69O"/>
         <segue reference="iCG-eR-lsL"/>
         <segue reference="vyn-Bo-3er"/>
         <segue reference="u2F-cW-NK3"/>
         <segue reference="17g-Yu-QGp"/>
-        <segue reference="I3k-L5-WpH"/>
+        <segue reference="qNj-vx-VVr"/>
         <segue reference="HNo-u8-9Qq"/>
         <segue reference="FVS-K6-FRE"/>
         <segue reference="jZJ-cZ-NNI"/>

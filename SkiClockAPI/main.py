@@ -391,15 +391,15 @@ def add_new_skier():
     return jsonify("done")
 
 
-@app.route('/todays_rentals')
-def get_todays_rentals():
+@app.route('/todays_rentals/<store_id>')
+def get_todays_rentals(store_id):
     date = datetime.datetime.now()
 
     today = date.strftime("%m") + "/" + date.strftime("%d") + "/" + date.strftime("%Y")
     # print("TODAY: ", today)
 
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
-    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE customer.customer_id = rentals.customer_id AND date_out = "{}" AND rentals.skiers_picked_up < rentals.total_skiers Order BY customer.last_name ASC;'.format(today)
+    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE customer.customer_id = rentals.customer_id AND date_out = "{}" AND rentals.skiers_picked_up < rentals.total_skiers AND store_id = {} Order BY customer.last_name ASC;'.format(today, store_id)
 
 
     cursor = db.cursor()
@@ -414,13 +414,13 @@ def get_todays_rentals():
 
     return jsonify(rentalList)
 
-@app.route('/overdue_rentals')
-def get_overdue_rentals():
+@app.route('/overdue_rentals/<store_id>')
+def get_overdue_rentals(store_id):
     newDates = helperFunctions.get_overdue_dates()
 
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.date_out = "{}" OR rentals.date_out = "{}" OR rentals.date_out = "{}") AND rentals.skiers_picked_up < rentals.total_skiers) Order BY customer.last_name ASC;'.format(newDates[0], newDates[1], newDates[2])
+    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.date_out = "{}" OR rentals.date_out = "{}" OR rentals.date_out = "{}") AND rentals.skiers_picked_up < rentals.total_skiers AND store_id = {}) Order BY customer.last_name ASC;'.format(newDates[0], newDates[1], newDates[2], store_id)
 
     cursor = db.cursor()
     cursor.execute(rentalsQuery)
@@ -434,13 +434,13 @@ def get_overdue_rentals():
 
     return jsonify(rentalList)
 
-@app.route('/tomorrows_rentals')
-def get_tomorrows_rentals():
+@app.route('/tomorrows_rentals/<store_id>')
+def get_tomorrows_rentals(store_id):
     tomorrow = helperFunctions.get_tomorrows_date()
 
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.date_out = "{}") AND rentals.skiers_picked_up < rentals.total_skiers) Order BY customer.last_name ASC;'.format(tomorrow)
+    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.date_out = "{}") AND rentals.skiers_picked_up < rentals.total_skiers AND store_id = {}) Order BY customer.last_name ASC;'.format(tomorrow, store_id)
 
     cursor = db.cursor()
     cursor.execute(rentalsQuery)
@@ -506,7 +506,6 @@ def add_skier_equipment():
 
     cursor = db.cursor()
     settingsQuery = 'INSERT INTO skier_settings (skier_id, boot_sole_length, skier_code, reccomended_din, actual_din) VALUES ({}, {}, "{}", {}, {});'.format(skier_id, sole_length, skier_code, din, din)
-    # print(settingsQuery)
     cursor.execute(settingsQuery)
     db.commit()
     cursor.close()
@@ -514,7 +513,6 @@ def add_skier_equipment():
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
     cursor = db.cursor()
     equipmentUpdateQuery = 'UPDATE skier_equipment set current_equipment = FALSE, latest_equipment = FALSE WHERE skier_id = {};'.format(skier_id)
-    # print(equipmentUpdateQuery)
     cursor.execute(equipmentUpdateQuery)
     db.commit()
     cursor.close()
@@ -529,7 +527,6 @@ def add_skier_equipment():
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
     cursor = db.cursor()
     equipmentQuery = 'INSERT INTO skier_equipment (skier_id, ski_id, boot_id, helmet_id) VALUES ({}, {}, {}, {});'.format(skier_id, ski_id, boot_id, helmet_id)
-    # print(equipmentQuery)
     cursor.execute(equipmentQuery)
     db.commit()
     cursor.close()

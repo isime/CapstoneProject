@@ -30,6 +30,7 @@ class SkierEquipmentFormContoller: UIViewController {
     var skiID: String = "NULL"
     var bootID: String = "NULL"
     var helmetID: String = "NULL"
+    var store_id: Int!
     
     let nums: Set<Character> = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
     
@@ -224,6 +225,15 @@ class SkierEquipmentFormContoller: UIViewController {
             let nextScene = segue.destination as? RentalAgreementController
             nextScene!.skier_id = self.skier_id
             nextScene!.rental_id = self.rental_id
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skierEquipmentFormToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skierEquipmentFormToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
     

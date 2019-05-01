@@ -15,6 +15,7 @@ class TomorrowsPickUpsController: UIViewController, UITableViewDataSource, UITab
     var first_name = [String]()
     var last_name = [String]()
     var customer_id = [Int]()
+    var store_id: Int!
 
     @IBOutlet weak var TomorrowsPickUpsTabel: UITableView!
     
@@ -42,11 +43,20 @@ class TomorrowsPickUpsController: UIViewController, UITableViewDataSource, UITab
             let indexPath = self.TomorrowsPickUpsTabel.indexPathForSelectedRow
             nextScene!.customer_id = customer_id[indexPath!.row]
             nextScene!.rental_id = rental_id[indexPath!.row]
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "tomorrowsPickUpsToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "tomorrowsPickUpsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
     
     func getTomorrowsPickUps(){
-        let tomorrowsPickUpsUrl = "http://10.0.0.7:5000/tomorrows_rentals"
+        let tomorrowsPickUpsUrl = "http://10.0.0.7:5000/tomorrows_rentals/" + String(store_id)
         guard let url = URL(string: tomorrowsPickUpsUrl) else { return }
         
         URLSession.shared.dataTask(with: url) {

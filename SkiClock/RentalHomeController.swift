@@ -29,6 +29,22 @@ class RentalHomeController: UIViewController {
             let nextScene = segue.destination as? TomorrowsReturnsListController
             nextScene!.store_id = store_id
         }
+        if segue.identifier == "rentalsHomeToOverduePickUps"{
+            let nextScene = segue.destination as? OverduePickUpsController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "rentalsHomeToTomorrowsPickUps"{
+            let nextScene = segue.destination as? TomorrowsPickUpsController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "rentalsHomeToTodaysPickUps"{
+            let nextScene = segue.destination as? RentalsListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "rentalsHomeToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
     }
     
     override func viewDidLoad() {
