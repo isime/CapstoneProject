@@ -10,6 +10,7 @@ import UIKit
 
 class BootsOutController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    var store_id: Int!
     var boots = [Boot]()
     var id = [Int]()
     var sole_length = [Int]()
@@ -18,6 +19,25 @@ class BootsOutController: UIViewController, UITableViewDataSource, UITableViewDe
     var model = [String]()
 
     @IBOutlet weak var BootsOutTable: UITableView!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "bootsOutToAllBoots"{
+            let nextScene = segue.destination as? AllBootsController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "bootsOutToBootsIn"{
+            let nextScene = segue.destination as? BootsInController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "bootsOutToEquipmentHome"{
+            let nextScene = segue.destination as? EquipmentHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "bootsOutToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let bootsOutCell = tableView.dequeueReusableCell(withIdentifier: "bootsOutCell"/*Identifier*/, for: indexPath as IndexPath)
@@ -35,7 +55,7 @@ class BootsOutController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func getEquipment(){
-        let equipmentUrl = "http://10.0.0.7:5000/currently_out_boots"
+        let equipmentUrl = "http://10.0.0.7:5000/currently_out_boots/" + String(store_id)
         guard let url = URL(string: equipmentUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

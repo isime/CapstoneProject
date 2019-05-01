@@ -9,7 +9,7 @@
 import UIKit
 
 class AllBootsController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+    var store_id: Int!
     var boots = [Boot]()
     var id = [Int]()
     var sole_length = [Int]()
@@ -18,6 +18,25 @@ class AllBootsController: UIViewController, UITableViewDataSource, UITableViewDe
     var model = [String]()
     
     @IBOutlet weak var AllBootsTable: UITableView!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "allBootsToBootsIn"{
+            let nextScene = segue.destination as? BootsInController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allBootsToEquipmentHome"{
+            let nextScene = segue.destination as? EquipmentHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allBootsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allBootsToBootsOut"{
+            let nextScene = segue.destination as? BootsOutController
+            nextScene!.store_id = store_id
+        }
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let allBootsCell = tableView.dequeueReusableCell(withIdentifier: "allBootsCell"/*Identifier*/, for: indexPath as IndexPath)
@@ -35,7 +54,7 @@ class AllBootsController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     func getEquipment(){
-        let equipmentUrl = "http://10.0.0.7:5000/all_boots"
+        let equipmentUrl = "http://10.0.0.7:5000/all_boots/" + String(store_id)
         guard let url = URL(string: equipmentUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

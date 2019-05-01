@@ -1354,7 +1354,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5Gh-2R-Khn" kind="show" id="weN-rC-xco"/>
+                                    <segue destination="5Gh-2R-Khn" kind="show" identifier="equipmentHomeToBootsIn" id="weN-rC-xco"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToAllBoots" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Snt-7d-3T3">
@@ -1366,7 +1366,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DMd-aC-EZk" kind="show" id="gli-9Y-JyR"/>
+                                    <segue destination="DMd-aC-EZk" kind="show" identifier="equipmentHomeToAllBoots" id="gli-9Y-JyR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToBootsOut" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sq6-yc-XlH">
@@ -1378,7 +1378,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gKz-60-vqz" kind="show" id="8Br-3m-6yg"/>
+                                    <segue destination="gKz-60-vqz" kind="show" identifier="equipmentHomeToBootsOut" id="8Br-3m-6yg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToInStockHelmets" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFE-7N-Ob6">
@@ -1426,7 +1426,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="GMK-xS-aBO"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="equipmentHomeToEmployeeDash" id="GMK-xS-aBO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1474,7 +1474,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gKz-60-vqz" kind="show" id="83F-lA-LjO"/>
+                                    <segue destination="gKz-60-vqz" kind="show" identifier="bootsInToBootsOut" id="83F-lA-LjO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsInToAllBoots" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5kZ-cB-fOk">
@@ -1486,7 +1486,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DMd-aC-EZk" kind="show" id="S2G-f9-32q"/>
+                                    <segue destination="DMd-aC-EZk" kind="show" identifier="bootsInToAllBoots" id="S2G-f9-32q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsInToEquipment" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOa-Yg-fkN">
@@ -1498,7 +1498,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" id="3nV-K9-zuy"/>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="bootsInToEquipmentHome" id="3nV-K9-zuy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsInToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ges-1E-dHW">
@@ -1510,7 +1510,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="xG1-8N-fNR"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="bootsInToEmployeeDash" id="xG1-8N-fNR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1561,7 +1561,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gKz-60-vqz" kind="show" id="iCG-eR-lsL"/>
+                                    <segue destination="gKz-60-vqz" kind="show" identifier="allBootsToBootsOut" id="iCG-eR-lsL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AllBootsToBootsIn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGq-k7-Jjr">
@@ -1573,7 +1573,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5Gh-2R-Khn" kind="show" id="PPw-uK-F63"/>
+                                    <segue destination="5Gh-2R-Khn" kind="show" identifier="allBootsToBootsIn" id="PPw-uK-F63"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AllBootsToEquipment" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xA-o4-IgK">
@@ -1585,7 +1585,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" id="C7w-tj-jOr"/>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="allBootsToEquipmentHome" id="C7w-tj-jOr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AllBootsToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zL6-oj-OfS">
@@ -1597,7 +1597,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="YIZ-3B-XEi"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="allBootsToEmployeeDash" id="YIZ-3B-XEi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1648,7 +1648,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DMd-aC-EZk" kind="show" id="vyn-Bo-3er"/>
+                                    <segue destination="DMd-aC-EZk" kind="show" identifier="bootsOutToAllBoots" id="vyn-Bo-3er"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsOutToBootsIn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucw-6A-4e6">
@@ -1660,7 +1660,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="5Gh-2R-Khn" kind="show" id="u2F-cW-NK3"/>
+                                    <segue destination="5Gh-2R-Khn" kind="show" identifier="bootsOutToBootsIn" id="u2F-cW-NK3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsOutToEquipment" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7UY-dF-r8X">
@@ -1672,7 +1672,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" id="20g-ad-9Zf"/>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="bootsOutToEquipmentHome" id="20g-ad-9Zf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsOutToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Uw-tb-U9x">
@@ -1684,7 +1684,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="yg4-g6-tiQ"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="bootsOutToEmployeeDash" id="yg4-g6-tiQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4691,11 +4691,11 @@
         <segue reference="Pzt-xP-fnb"/>
         <segue reference="O9x-ke-PEf"/>
         <segue reference="PZp-mm-aaM"/>
-        <segue reference="8Br-3m-6yg"/>
-        <segue reference="gli-9Y-JyR"/>
-        <segue reference="weN-rC-xco"/>
-        <segue reference="iZY-Sr-wmx"/>
-        <segue reference="Ci8-cY-bar"/>
+        <segue reference="iCG-eR-lsL"/>
+        <segue reference="vyn-Bo-3er"/>
+        <segue reference="u2F-cW-NK3"/>
+        <segue reference="20g-ad-9Zf"/>
+        <segue reference="yg4-g6-tiQ"/>
         <segue reference="HNo-u8-9Qq"/>
         <segue reference="FVS-K6-FRE"/>
         <segue reference="jZJ-cZ-NNI"/>

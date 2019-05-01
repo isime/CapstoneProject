@@ -99,11 +99,11 @@ def get_all_skis(store_id):
     return jsonify(skiList)
 
 
-@app.route('/in_stock_boots')
-def get_in_stock_boots():
+@app.route('/in_stock_boots/<store_id>')
+def get_in_stock_boots(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    bootsQuery = "SELECT boot_id, size, manufacturer, model, sole_length FROM BOOTS WHERE boots_out = FALSE ORDER BY manufacturer ASC;"
+    bootsQuery = "SELECT boot_id, size, manufacturer, model, sole_length FROM BOOTS WHERE boots_out = FALSE AND current_store = {} ORDER BY manufacturer ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -129,11 +129,11 @@ def get_in_stock_boots():
     return jsonify(bootsList)
 
 
-@app.route('/currently_out_boots')
-def get_currently_out_boots():
+@app.route('/currently_out_boots/<store_id>')
+def get_currently_out_boots(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    bootsQuery = "SELECT boot_id, size, manufacturer, model, sole_length FROM BOOTS WHERE boots_out = TRUE ORDER BY manufacturer ASC;"
+    bootsQuery = "SELECT boot_id, size, manufacturer, model, sole_length FROM BOOTS WHERE boots_out = TRUE AND current_store = {} ORDER BY manufacturer ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -159,11 +159,11 @@ def get_currently_out_boots():
     return jsonify(bootsList)
 
 
-@app.route('/all_boots')
-def get_all_boots():
+@app.route('/all_boots/<store_id>')
+def get_all_boots(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    bootsQuery = "SELECT boot_id, size, manufacturer, model, sole_length FROM BOOTS ORDER BY manufacturer ASC;"
+    bootsQuery = "SELECT boot_id, size, manufacturer, model, sole_length FROM BOOTS WHERE current_store = {} ORDER BY manufacturer ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -189,11 +189,11 @@ def get_all_boots():
     return jsonify(bootsList)
 
 
-@app.route('/in_stock_helmets')
-def get_in_stock_helmets():
+@app.route('/in_stock_helmets/<store_id>')
+def get_in_stock_helmets(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    helmetsQuery = "SELECT helmet_id, size, color FROM HELMET WHERE helmet_out = FALSE ORDER BY size ASC;"
+    helmetsQuery = "SELECT helmet_id, size, color FROM HELMET WHERE helmet_out = FALSE AND current_store = {} ORDER BY size ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -217,11 +217,11 @@ def get_in_stock_helmets():
     return jsonify(helmetList)
 
 
-@app.route('/currently_out_helmets')
-def get_currently_out_helmets():
+@app.route('/currently_out_helmets/<store_id>')
+def get_currently_out_helmets(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    helmetsQuery = "SELECT helmet_id, size, color FROM HELMET WHERE helmet_out = TRUE ORDER BY size ASC;"
+    helmetsQuery = "SELECT helmet_id, size, color FROM HELMET WHERE helmet_out = TRUE AND current_store = {} ORDER BY size ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -245,11 +245,11 @@ def get_currently_out_helmets():
     return jsonify(helmetList)
 
 
-@app.route('/all_helmets')
-def get_all_helmets():
+@app.route('/all_helmets/<store_id>')
+def get_all_helmets(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    helmetsQuery = "SELECT helmet_id, size, color FROM HELMET ORDER BY size ASC;"
+    helmetsQuery = "SELECT helmet_id, size, color FROM HELMET WHERE current_store = {} ORDER BY size ASC;".format(store_id)
 
     cursor = db.cursor()
     cursor.execute(helmetsQuery)

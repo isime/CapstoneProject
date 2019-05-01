@@ -25,7 +25,22 @@ class EquipmentHomeController: UIViewController {
             let nextScene = segue.destination as? SkisOutController
             nextScene!.store_id = store_id
         }
-        
+        if segue.identifier == "equipmentHomeToBootsIn"{
+            let nextScene = segue.destination as? BootsInController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "equipmentHomeToBootsOut"{
+            let nextScene = segue.destination as? BootsOutController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "equipmentHomeToAllBoots"{
+            let nextScene = segue.destination as? AllBootsController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "equipmentHomeToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
     }
 
     override func viewDidLoad() {

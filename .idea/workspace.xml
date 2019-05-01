@@ -3,44 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8550bbe6-da18-46e9-9676-042d52405bff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcodeproj/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/SkiClock.xcodeproj/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AddSkierController.swift" afterPath="$PROJECT_DIR$/SkiClock/AddSkierController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllBootsController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllBootsController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllHelmetsController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllHelmetsController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllSkisListController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllSkisListController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/Base.lproj/Main.storyboard" afterPath="$PROJECT_DIR$/SkiClock/Base.lproj/Main.storyboard" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/BootsInController.swift" afterPath="$PROJECT_DIR$/SkiClock/BootsInController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/BootsOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/BootsOutController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerHomeController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerHomeController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerNewSkierFormController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerNewSkierFormController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalSkierInfoController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalSkierInfoController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalsListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalsSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalsSkierListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerSkierListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/EmployeeLoginController.swift" afterPath="$PROJECT_DIR$/SkiClock/EmployeeLoginController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/EquipmentHomeController.swift" afterPath="$PROJECT_DIR$/SkiClock/EquipmentHomeController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/EquipmentListController.swift" afterPath="$PROJECT_DIR$/SkiClock/EquipmentListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/FristSkierReturnController.swift" afterPath="$PROJECT_DIR$/SkiClock/FristSkierReturnController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/HelmetsInController.swift" afterPath="$PROJECT_DIR$/SkiClock/HelmetsInController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/HelmetsOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/HelmetsOutController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/NewCustomerController.swift" afterPath="$PROJECT_DIR$/SkiClock/NewCustomerController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/NextNewSkierController.swift" afterPath="$PROJECT_DIR$/SkiClock/NextNewSkierController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/OverduePickUpsController.swift" afterPath="$PROJECT_DIR$/SkiClock/OverduePickUpsController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/OverdueReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/OverdueReturnsListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/RentalsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/RentalsListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ReturnSkierFormController.swift" afterPath="$PROJECT_DIR$/SkiClock/ReturnSkierFormController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ReturnSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/ReturnSkierListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SecondRentalAgreementPageController.swift" afterPath="$PROJECT_DIR$/SkiClock/SecondRentalAgreementPageController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierEquipmentFormContoller.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierEquipmentFormContoller.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierInfoController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierInfoController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkisOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkisOutController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TodaysReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/TodaysReturnsListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TomorrowsPickUpsController.swift" afterPath="$PROJECT_DIR$/SkiClock/TomorrowsPickUpsController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TomorrowsReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/TomorrowsReturnsListController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ViewController.swift" afterPath="$PROJECT_DIR$/SkiClock/ViewController.swift" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClockAPI/main.py" afterPath="$PROJECT_DIR$/SkiClockAPI/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,78 +22,78 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="337">
+              <caret line="262" column="0" lean-forward="true" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1556680919849" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
-                <marker date="1556680919849" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
-                <marker date="1556680919849" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
-                <marker date="1556680919849" expanded="true" signature="2767:2882" ph="SELECT boot_... " />
-                <marker date="1556680919849" expanded="true" signature="3553:3667" ph="SELECT boot_... " />
-                <marker date="1556680919849" expanded="true" signature="4318:4409" ph="SELECT boot_... " />
-                <marker date="1556680919849" expanded="true" signature="5076:5160" ph="SELECT helme... " />
-                <marker date="1556680919849" expanded="true" signature="5818:5901" ph="SELECT helme... " />
-                <marker date="1556680919849" expanded="true" signature="6539:6598" ph="SELECT helme... " />
-                <marker date="1556680919849" expanded="true" signature="7733:7878" ph="INSERT INTO CUSTOMER... " />
-                <marker date="1556680919849" expanded="true" signature="8157:8223" ph="SELECT custo... CUSTOMER" />
-                <marker date="1556680919849" expanded="true" signature="8495:8590" ph="INSERT INTO RENTALS... " />
-                <marker date="1556680919849" expanded="true" signature="9363:9429" ph="SELECT custo... CUSTOMER" />
-                <marker date="1556680919849" expanded="true" signature="9651:9792" ph="INSERT INTO SKIER_INFO... " />
-                <marker date="1556680919849" expanded="true" signature="10068:10129" ph="SELECT renta... RENTALS" />
-                <marker date="1556680919849" expanded="true" signature="10362:10424" ph="SELECT skier... SKIER_INFO" />
-                <marker date="1556680919849" expanded="true" signature="10660:10731" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
-                <marker date="1556680919849" expanded="true" signature="10959:11026" ph="UPDATE renta... " />
-                <marker date="1556680919849" expanded="true" signature="11478:11714" ph="SELECT last_... customer" />
-                <marker date="1556680919849" expanded="true" signature="12246:12548" ph="SELECT last_... customer" />
-                <marker date="1556680919849" expanded="true" signature="13116:13364" ph="SELECT last_... customer" />
-                <marker date="1556680919849" expanded="true" signature="13848:14029" ph="SELECT * FRO... skier_info" />
-                <marker date="1556680919849" expanded="true" signature="13885:13962" ph="SELECT skier... rentals_has_skiers" />
-                <marker date="1556680919849" expanded="true" signature="15097:15163" ph="UPDATE skier... " />
-                <marker date="1556680919849" expanded="true" signature="15374:15500" ph="INSERT INTO skier_settings... " />
-                <marker date="1556680919849" expanded="true" signature="15777:15873" ph="UPDATE skier... " />
-                <marker date="1556680919849" expanded="true" signature="16134:16209" ph="UPDATE renta... " />
-                <marker date="1556680919849" expanded="true" signature="16431:16521" ph="INSERT INTO skier_equipment... " />
-                <marker date="1556680919849" expanded="true" signature="16788:16835" ph="UPDATE skis " />
-                <marker date="1556680919849" expanded="true" signature="17048:17098" ph="UPDATE boots... " />
-                <marker date="1556680919849" expanded="true" signature="17313:17367" ph="UPDATE helme... " />
-                <marker date="1556680919849" expanded="true" signature="17829:17921" ph="UPDATE skier... " />
-                <marker date="1556680919849" expanded="true" signature="18207:18319" ph="SELECT * FRO... skier_equipment" />
-                <marker date="1556680919849" expanded="true" signature="18754:18898" ph="SELECT * FRO... skier_equipment" />
-                <marker date="1556680919849" expanded="true" signature="20912:20997" ph="SELECT skier... skier_info" />
-                <marker date="1556680919849" expanded="true" signature="21614:21677" ph="SELECT first... customer" />
-                <marker date="1556680919849" expanded="true" signature="22299:22379" ph="SELECT renta... rentals" />
-                <marker date="1556680919849" expanded="true" signature="22864:22932" ph="SELECT ski_i... skis" />
-                <marker date="1556680919849" expanded="true" signature="23755:23837" ph="SELECT boot_... " />
-                <marker date="1556680919849" expanded="true" signature="24789:24849" ph="SELECT helme... " />
-                <marker date="1556680919849" expanded="true" signature="25730:25808" ph="SELECT * FRO... skier_equipment" />
-                <marker date="1556680919849" expanded="true" signature="26204:26314" ph="SELECT * FRO... skier_equipment" />
-                <marker date="1556680919849" expanded="true" signature="27858:27926" ph="SELECT ski_i... skis" />
-                <marker date="1556680919849" expanded="true" signature="28754:28836" ph="SELECT boot_... " />
-                <marker date="1556680919849" expanded="true" signature="29788:29848" ph="SELECT helme... " />
-                <marker date="1556680919849" expanded="true" signature="31744:31840" ph="UPDATE skier... " />
-                <marker date="1556680919849" expanded="true" signature="32112:32160" ph="UPDATE skis " />
-                <marker date="1556680919849" expanded="true" signature="32511:32608" ph="UPDATE skier... " />
-                <marker date="1556680919849" expanded="true" signature="32883:32934" ph="UPDATE boots... " />
-                <marker date="1556680919849" expanded="true" signature="33234:33332" ph="UPDATE skier... " />
-                <marker date="1556680919849" expanded="true" signature="33649:33704" ph="UPDATE helme... " />
-                <marker date="1556680919849" expanded="true" signature="33968:34069" ph="UPDATE skier... " />
-                <marker date="1556680919849" expanded="true" signature="34318:34434" ph="UPDATE renta... " />
-                <marker date="1556680919849" expanded="true" signature="34666:34753" ph="UPDATE renta... " />
-                <marker date="1556680919849" expanded="true" signature="35132:35223" ph="update renta... " />
-                <marker date="1556680919849" expanded="true" signature="35632:35915" ph="SELECT last_... customer" />
-                <marker date="1556680919849" expanded="true" signature="36425:36709" ph="SELECT last_... customer" />
-                <marker date="1556680919849" expanded="true" signature="37444:37728" ph="SELECT last_... customer" />
-                <marker date="1556680919849" expanded="true" signature="38434:38568" ph="SELECT skier... skier_info" />
-                <marker date="1556680919849" expanded="true" signature="39363:39618" ph="SELECT skier... skier_info" />
-                <marker date="1556680919849" expanded="true" signature="39474:39551" ph="SELECT skier... rentals_has_skiers" />
-                <marker date="1556680919849" expanded="true" signature="40398:40489" ph="SELECT ski_i... skier_equipment" />
-                <marker date="1556680919849" expanded="true" signature="41450:41518" ph="SELECT ski_i... skis" />
-                <marker date="1556680919849" expanded="true" signature="42341:42423" ph="SELECT boot_... " />
-                <marker date="1556680919849" expanded="true" signature="44031:44172" ph="INSERT INTO SKIER_INFO... " />
-                <marker date="1556680919849" expanded="true" signature="44539:44618" ph="SELECT renta... rentals" />
-                <marker date="1556680919849" expanded="true" signature="45352:45404" ph="SELECT first... customer" />
-                <marker date="1556680919849" expanded="true" signature="45352:45406" ph="SELECT first... customer" />
+                <marker date="1556683033492" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
+                <marker date="1556683033492" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
+                <marker date="1556683033492" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
+                <marker date="1556683033492" expanded="true" signature="2786:2924" ph="SELECT boot_... " />
+                <marker date="1556683033492" expanded="true" signature="3631:3768" ph="SELECT boot_... " />
+                <marker date="1556683033492" expanded="true" signature="4455:4571" ph="SELECT boot_... " />
+                <marker date="1556683033492" expanded="true" signature="5274:5381" ph="SELECT helme... " />
+                <marker date="1556683033492" expanded="true" signature="6075:6181" ph="SELECT helme... " />
+                <marker date="1556683033492" expanded="true" signature="6855:6939" ph="SELECT helme... " />
+                <marker date="1556683033492" expanded="true" signature="8091:8236" ph="INSERT INTO CUSTOMER... " />
+                <marker date="1556683033492" expanded="true" signature="8515:8581" ph="SELECT custo... CUSTOMER" />
+                <marker date="1556683033492" expanded="true" signature="8853:8948" ph="INSERT INTO RENTALS... " />
+                <marker date="1556683033492" expanded="true" signature="9721:9787" ph="SELECT custo... CUSTOMER" />
+                <marker date="1556683033492" expanded="true" signature="10009:10150" ph="INSERT INTO SKIER_INFO... " />
+                <marker date="1556683033492" expanded="true" signature="10426:10487" ph="SELECT renta... RENTALS" />
+                <marker date="1556683033492" expanded="true" signature="10720:10782" ph="SELECT skier... SKIER_INFO" />
+                <marker date="1556683033492" expanded="true" signature="11018:11089" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
+                <marker date="1556683033492" expanded="true" signature="11317:11384" ph="UPDATE renta... " />
+                <marker date="1556683033492" expanded="true" signature="11836:12072" ph="SELECT last_... customer" />
+                <marker date="1556683033492" expanded="true" signature="12604:12906" ph="SELECT last_... customer" />
+                <marker date="1556683033492" expanded="true" signature="13474:13722" ph="SELECT last_... customer" />
+                <marker date="1556683033492" expanded="true" signature="14206:14387" ph="SELECT * FRO... skier_info" />
+                <marker date="1556683033492" expanded="true" signature="14243:14320" ph="SELECT skier... rentals_has_skiers" />
+                <marker date="1556683033492" expanded="true" signature="15455:15521" ph="UPDATE skier... " />
+                <marker date="1556683033492" expanded="true" signature="15732:15858" ph="INSERT INTO skier_settings... " />
+                <marker date="1556683033492" expanded="true" signature="16135:16231" ph="UPDATE skier... " />
+                <marker date="1556683033492" expanded="true" signature="16492:16567" ph="UPDATE renta... " />
+                <marker date="1556683033492" expanded="true" signature="16789:16879" ph="INSERT INTO skier_equipment... " />
+                <marker date="1556683033492" expanded="true" signature="17146:17193" ph="UPDATE skis " />
+                <marker date="1556683033492" expanded="true" signature="17406:17456" ph="UPDATE boots... " />
+                <marker date="1556683033492" expanded="true" signature="17671:17725" ph="UPDATE helme... " />
+                <marker date="1556683033492" expanded="true" signature="18187:18279" ph="UPDATE skier... " />
+                <marker date="1556683033492" expanded="true" signature="18565:18677" ph="SELECT * FRO... skier_equipment" />
+                <marker date="1556683033492" expanded="true" signature="19112:19256" ph="SELECT * FRO... skier_equipment" />
+                <marker date="1556683033492" expanded="true" signature="21270:21355" ph="SELECT skier... skier_info" />
+                <marker date="1556683033492" expanded="true" signature="21972:22035" ph="SELECT first... customer" />
+                <marker date="1556683033492" expanded="true" signature="22657:22737" ph="SELECT renta... rentals" />
+                <marker date="1556683033492" expanded="true" signature="23222:23290" ph="SELECT ski_i... skis" />
+                <marker date="1556683033492" expanded="true" signature="24113:24195" ph="SELECT boot_... " />
+                <marker date="1556683033492" expanded="true" signature="25147:25207" ph="SELECT helme... " />
+                <marker date="1556683033492" expanded="true" signature="26088:26166" ph="SELECT * FRO... skier_equipment" />
+                <marker date="1556683033492" expanded="true" signature="26562:26672" ph="SELECT * FRO... skier_equipment" />
+                <marker date="1556683033492" expanded="true" signature="28216:28284" ph="SELECT ski_i... skis" />
+                <marker date="1556683033492" expanded="true" signature="29112:29194" ph="SELECT boot_... " />
+                <marker date="1556683033492" expanded="true" signature="30146:30206" ph="SELECT helme... " />
+                <marker date="1556683033492" expanded="true" signature="32102:32198" ph="UPDATE skier... " />
+                <marker date="1556683033492" expanded="true" signature="32470:32518" ph="UPDATE skis " />
+                <marker date="1556683033492" expanded="true" signature="32869:32966" ph="UPDATE skier... " />
+                <marker date="1556683033492" expanded="true" signature="33241:33292" ph="UPDATE boots... " />
+                <marker date="1556683033492" expanded="true" signature="33592:33690" ph="UPDATE skier... " />
+                <marker date="1556683033492" expanded="true" signature="34007:34062" ph="UPDATE helme... " />
+                <marker date="1556683033492" expanded="true" signature="34326:34427" ph="UPDATE skier... " />
+                <marker date="1556683033492" expanded="true" signature="34676:34792" ph="UPDATE renta... " />
+                <marker date="1556683033492" expanded="true" signature="35024:35111" ph="UPDATE renta... " />
+                <marker date="1556683033492" expanded="true" signature="35490:35581" ph="update renta... " />
+                <marker date="1556683033492" expanded="true" signature="35990:36273" ph="SELECT last_... customer" />
+                <marker date="1556683033492" expanded="true" signature="36783:37067" ph="SELECT last_... customer" />
+                <marker date="1556683033492" expanded="true" signature="37802:38086" ph="SELECT last_... customer" />
+                <marker date="1556683033492" expanded="true" signature="38792:38926" ph="SELECT skier... skier_info" />
+                <marker date="1556683033492" expanded="true" signature="39721:39976" ph="SELECT skier... skier_info" />
+                <marker date="1556683033492" expanded="true" signature="39832:39909" ph="SELECT skier... rentals_has_skiers" />
+                <marker date="1556683033492" expanded="true" signature="40756:40847" ph="SELECT ski_i... skier_equipment" />
+                <marker date="1556683033492" expanded="true" signature="41808:41876" ph="SELECT ski_i... skis" />
+                <marker date="1556683033492" expanded="true" signature="42699:42781" ph="SELECT boot_... " />
+                <marker date="1556683033492" expanded="true" signature="44389:44530" ph="INSERT INTO SKIER_INFO... " />
+                <marker date="1556683033492" expanded="true" signature="44897:44976" ph="SELECT renta... rentals" />
+                <marker date="1556683033492" expanded="true" signature="45710:45762" ph="SELECT first... customer" />
+                <marker date="1556683033492" expanded="true" signature="45710:45764" ph="SELECT first... customer" />
               </folding>
             </state>
           </provider>
@@ -272,74 +239,74 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1556680919849" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2767:2882" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="3553:3667" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="4318:4409" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="5076:5160" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="5818:5901" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="6539:6598" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="7733:7878" ph="INSERT INTO CUSTOMER... " />
-            <marker date="1556680919849" expanded="true" signature="8157:8223" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="8495:8590" ph="INSERT INTO RENTALS... " />
-            <marker date="1556680919849" expanded="true" signature="9363:9429" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="9651:9792" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="10068:10129" ph="SELECT renta... RENTALS" />
-            <marker date="1556680919849" expanded="true" signature="10362:10424" ph="SELECT skier... SKIER_INFO" />
-            <marker date="1556680919849" expanded="true" signature="10660:10731" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
-            <marker date="1556680919849" expanded="true" signature="10959:11026" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="11478:11714" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="12246:12548" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13116:13364" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13848:14029" ph="SELECT * FRO... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="13885:13962" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="15097:15163" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="15374:15500" ph="INSERT INTO skier_settings... " />
-            <marker date="1556680919849" expanded="true" signature="15777:15873" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="16134:16209" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="16431:16521" ph="INSERT INTO skier_equipment... " />
-            <marker date="1556680919849" expanded="true" signature="16788:16835" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="17048:17098" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="17313:17367" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="17829:17921" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="18207:18319" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="18754:18898" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="20912:20997" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="21614:21677" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="22299:22379" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="22864:22932" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="23755:23837" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="24789:24849" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="25730:25808" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="26204:26314" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="27858:27926" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="28754:28836" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="29788:29848" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="31744:31840" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32112:32160" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="32511:32608" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32883:32934" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="33234:33332" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="33649:33704" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="33968:34069" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="34318:34434" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="34666:34753" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="35132:35223" ph="update renta... " />
-            <marker date="1556680919849" expanded="true" signature="35632:35915" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="36425:36709" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="37444:37728" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="38434:38568" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39363:39618" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39474:39551" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="40398:40489" ph="SELECT ski_i... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="41450:41518" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="42341:42423" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="44031:44172" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="44539:44618" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="45352:45404" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="45352:45406" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2786:2924" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="3631:3768" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="4455:4571" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="5274:5381" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6075:6181" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6855:6939" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="8091:8236" ph="INSERT INTO CUSTOMER... " />
+            <marker date="1556683033492" expanded="true" signature="8515:8581" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="8853:8948" ph="INSERT INTO RENTALS... " />
+            <marker date="1556683033492" expanded="true" signature="9721:9787" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="10009:10150" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="10426:10487" ph="SELECT renta... RENTALS" />
+            <marker date="1556683033492" expanded="true" signature="10720:10782" ph="SELECT skier... SKIER_INFO" />
+            <marker date="1556683033492" expanded="true" signature="11018:11089" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
+            <marker date="1556683033492" expanded="true" signature="11317:11384" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="11836:12072" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="12604:12906" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="13474:13722" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="14206:14387" ph="SELECT * FRO... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="14243:14320" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="15455:15521" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="15732:15858" ph="INSERT INTO skier_settings... " />
+            <marker date="1556683033492" expanded="true" signature="16135:16231" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="16492:16567" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="16789:16879" ph="INSERT INTO skier_equipment... " />
+            <marker date="1556683033492" expanded="true" signature="17146:17193" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="17406:17456" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="17671:17725" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="18187:18279" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="18565:18677" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="19112:19256" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="21270:21355" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="21972:22035" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="22657:22737" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="23222:23290" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="24113:24195" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="25147:25207" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="26088:26166" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="26562:26672" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="28216:28284" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="29112:29194" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="30146:30206" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="32102:32198" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="32470:32518" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="32869:32966" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="33241:33292" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="33592:33690" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34007:34062" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="34326:34427" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34676:34792" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35024:35111" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35490:35581" ph="update renta... " />
+            <marker date="1556683033492" expanded="true" signature="35990:36273" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="36783:37067" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="37802:38086" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="38792:38926" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39721:39976" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39832:39909" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="40756:40847" ph="SELECT ski_i... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="41808:41876" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="42699:42781" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="44389:44530" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="44897:44976" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="45710:45762" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="45710:45764" ph="SELECT first... customer" />
           </folding>
         </state>
       </provider>
@@ -358,74 +325,74 @@
           <caret line="522" column="31" lean-forward="false" selection-start-line="522" selection-start-column="31" selection-end-line="522" selection-end-column="109" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1556680919849" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2767:2882" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="3553:3667" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="4318:4409" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="5076:5160" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="5818:5901" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="6539:6598" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="7733:7878" ph="INSERT INTO CUSTOMER... " />
-            <marker date="1556680919849" expanded="true" signature="8157:8223" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="8495:8590" ph="INSERT INTO RENTALS... " />
-            <marker date="1556680919849" expanded="true" signature="9363:9429" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="9651:9792" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="10068:10129" ph="SELECT renta... RENTALS" />
-            <marker date="1556680919849" expanded="true" signature="10362:10424" ph="SELECT skier... SKIER_INFO" />
-            <marker date="1556680919849" expanded="true" signature="10660:10731" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
-            <marker date="1556680919849" expanded="true" signature="10959:11026" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="11478:11714" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="12246:12548" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13116:13364" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13848:14029" ph="SELECT * FRO... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="13885:13962" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="15097:15163" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="15374:15500" ph="INSERT INTO skier_settings... " />
-            <marker date="1556680919849" expanded="true" signature="15777:15873" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="16134:16209" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="16431:16521" ph="INSERT INTO skier_equipment... " />
-            <marker date="1556680919849" expanded="true" signature="16788:16835" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="17048:17098" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="17313:17367" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="17829:17921" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="18207:18319" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="18754:18898" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="20912:20997" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="21614:21677" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="22299:22379" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="22864:22932" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="23755:23837" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="24789:24849" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="25730:25808" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="26204:26314" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="27858:27926" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="28754:28836" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="29788:29848" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="31744:31840" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32112:32160" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="32511:32608" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32883:32934" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="33234:33332" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="33649:33704" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="33968:34069" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="34318:34434" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="34666:34753" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="35132:35223" ph="update renta... " />
-            <marker date="1556680919849" expanded="true" signature="35632:35915" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="36425:36709" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="37444:37728" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="38434:38568" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39363:39618" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39474:39551" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="40398:40489" ph="SELECT ski_i... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="41450:41518" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="42341:42423" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="44031:44172" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="44539:44618" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="45352:45404" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="45352:45406" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2786:2924" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="3631:3768" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="4455:4571" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="5274:5381" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6075:6181" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6855:6939" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="8091:8236" ph="INSERT INTO CUSTOMER... " />
+            <marker date="1556683033492" expanded="true" signature="8515:8581" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="8853:8948" ph="INSERT INTO RENTALS... " />
+            <marker date="1556683033492" expanded="true" signature="9721:9787" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="10009:10150" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="10426:10487" ph="SELECT renta... RENTALS" />
+            <marker date="1556683033492" expanded="true" signature="10720:10782" ph="SELECT skier... SKIER_INFO" />
+            <marker date="1556683033492" expanded="true" signature="11018:11089" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
+            <marker date="1556683033492" expanded="true" signature="11317:11384" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="11836:12072" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="12604:12906" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="13474:13722" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="14206:14387" ph="SELECT * FRO... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="14243:14320" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="15455:15521" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="15732:15858" ph="INSERT INTO skier_settings... " />
+            <marker date="1556683033492" expanded="true" signature="16135:16231" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="16492:16567" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="16789:16879" ph="INSERT INTO skier_equipment... " />
+            <marker date="1556683033492" expanded="true" signature="17146:17193" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="17406:17456" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="17671:17725" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="18187:18279" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="18565:18677" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="19112:19256" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="21270:21355" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="21972:22035" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="22657:22737" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="23222:23290" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="24113:24195" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="25147:25207" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="26088:26166" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="26562:26672" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="28216:28284" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="29112:29194" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="30146:30206" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="32102:32198" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="32470:32518" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="32869:32966" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="33241:33292" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="33592:33690" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34007:34062" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="34326:34427" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34676:34792" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35024:35111" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35490:35581" ph="update renta... " />
+            <marker date="1556683033492" expanded="true" signature="35990:36273" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="36783:37067" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="37802:38086" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="38792:38926" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39721:39976" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39832:39909" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="40756:40847" ph="SELECT ski_i... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="41808:41876" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="42699:42781" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="44389:44530" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="44897:44976" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="45710:45762" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="45710:45764" ph="SELECT first... customer" />
           </folding>
         </state>
       </provider>
@@ -444,74 +411,74 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1556680919849" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2767:2882" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="3553:3667" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="4318:4409" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="5076:5160" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="5818:5901" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="6539:6598" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="7733:7878" ph="INSERT INTO CUSTOMER... " />
-            <marker date="1556680919849" expanded="true" signature="8157:8223" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="8495:8590" ph="INSERT INTO RENTALS... " />
-            <marker date="1556680919849" expanded="true" signature="9363:9429" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="9651:9792" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="10068:10129" ph="SELECT renta... RENTALS" />
-            <marker date="1556680919849" expanded="true" signature="10362:10424" ph="SELECT skier... SKIER_INFO" />
-            <marker date="1556680919849" expanded="true" signature="10660:10731" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
-            <marker date="1556680919849" expanded="true" signature="10959:11026" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="11478:11714" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="12246:12548" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13116:13364" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13848:14029" ph="SELECT * FRO... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="13885:13962" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="15097:15163" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="15374:15500" ph="INSERT INTO skier_settings... " />
-            <marker date="1556680919849" expanded="true" signature="15777:15873" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="16134:16209" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="16431:16521" ph="INSERT INTO skier_equipment... " />
-            <marker date="1556680919849" expanded="true" signature="16788:16835" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="17048:17098" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="17313:17367" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="17829:17921" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="18207:18319" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="18754:18898" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="20912:20997" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="21614:21677" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="22299:22379" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="22864:22932" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="23755:23837" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="24789:24849" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="25730:25808" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="26204:26314" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="27858:27926" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="28754:28836" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="29788:29848" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="31744:31840" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32112:32160" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="32511:32608" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32883:32934" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="33234:33332" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="33649:33704" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="33968:34069" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="34318:34434" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="34666:34753" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="35132:35223" ph="update renta... " />
-            <marker date="1556680919849" expanded="true" signature="35632:35915" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="36425:36709" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="37444:37728" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="38434:38568" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39363:39618" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39474:39551" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="40398:40489" ph="SELECT ski_i... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="41450:41518" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="42341:42423" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="44031:44172" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="44539:44618" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="45352:45404" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="45352:45406" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2786:2924" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="3631:3768" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="4455:4571" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="5274:5381" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6075:6181" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6855:6939" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="8091:8236" ph="INSERT INTO CUSTOMER... " />
+            <marker date="1556683033492" expanded="true" signature="8515:8581" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="8853:8948" ph="INSERT INTO RENTALS... " />
+            <marker date="1556683033492" expanded="true" signature="9721:9787" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="10009:10150" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="10426:10487" ph="SELECT renta... RENTALS" />
+            <marker date="1556683033492" expanded="true" signature="10720:10782" ph="SELECT skier... SKIER_INFO" />
+            <marker date="1556683033492" expanded="true" signature="11018:11089" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
+            <marker date="1556683033492" expanded="true" signature="11317:11384" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="11836:12072" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="12604:12906" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="13474:13722" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="14206:14387" ph="SELECT * FRO... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="14243:14320" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="15455:15521" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="15732:15858" ph="INSERT INTO skier_settings... " />
+            <marker date="1556683033492" expanded="true" signature="16135:16231" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="16492:16567" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="16789:16879" ph="INSERT INTO skier_equipment... " />
+            <marker date="1556683033492" expanded="true" signature="17146:17193" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="17406:17456" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="17671:17725" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="18187:18279" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="18565:18677" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="19112:19256" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="21270:21355" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="21972:22035" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="22657:22737" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="23222:23290" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="24113:24195" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="25147:25207" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="26088:26166" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="26562:26672" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="28216:28284" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="29112:29194" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="30146:30206" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="32102:32198" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="32470:32518" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="32869:32966" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="33241:33292" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="33592:33690" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34007:34062" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="34326:34427" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34676:34792" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35024:35111" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35490:35581" ph="update renta... " />
+            <marker date="1556683033492" expanded="true" signature="35990:36273" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="36783:37067" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="37802:38086" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="38792:38926" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39721:39976" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39832:39909" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="40756:40847" ph="SELECT ski_i... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="41808:41876" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="42699:42781" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="44389:44530" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="44897:44976" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="45710:45762" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="45710:45764" ph="SELECT first... customer" />
           </folding>
         </state>
       </provider>
@@ -526,78 +493,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="337">
+          <caret line="262" column="0" lean-forward="true" selection-start-line="262" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1556680919849" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
-            <marker date="1556680919849" expanded="true" signature="2767:2882" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="3553:3667" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="4318:4409" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="5076:5160" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="5818:5901" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="6539:6598" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="7733:7878" ph="INSERT INTO CUSTOMER... " />
-            <marker date="1556680919849" expanded="true" signature="8157:8223" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="8495:8590" ph="INSERT INTO RENTALS... " />
-            <marker date="1556680919849" expanded="true" signature="9363:9429" ph="SELECT custo... CUSTOMER" />
-            <marker date="1556680919849" expanded="true" signature="9651:9792" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="10068:10129" ph="SELECT renta... RENTALS" />
-            <marker date="1556680919849" expanded="true" signature="10362:10424" ph="SELECT skier... SKIER_INFO" />
-            <marker date="1556680919849" expanded="true" signature="10660:10731" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
-            <marker date="1556680919849" expanded="true" signature="10959:11026" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="11478:11714" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="12246:12548" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13116:13364" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="13848:14029" ph="SELECT * FRO... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="13885:13962" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="15097:15163" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="15374:15500" ph="INSERT INTO skier_settings... " />
-            <marker date="1556680919849" expanded="true" signature="15777:15873" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="16134:16209" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="16431:16521" ph="INSERT INTO skier_equipment... " />
-            <marker date="1556680919849" expanded="true" signature="16788:16835" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="17048:17098" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="17313:17367" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="17829:17921" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="18207:18319" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="18754:18898" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="20912:20997" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="21614:21677" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="22299:22379" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="22864:22932" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="23755:23837" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="24789:24849" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="25730:25808" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="26204:26314" ph="SELECT * FRO... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="27858:27926" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="28754:28836" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="29788:29848" ph="SELECT helme... " />
-            <marker date="1556680919849" expanded="true" signature="31744:31840" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32112:32160" ph="UPDATE skis " />
-            <marker date="1556680919849" expanded="true" signature="32511:32608" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="32883:32934" ph="UPDATE boots... " />
-            <marker date="1556680919849" expanded="true" signature="33234:33332" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="33649:33704" ph="UPDATE helme... " />
-            <marker date="1556680919849" expanded="true" signature="33968:34069" ph="UPDATE skier... " />
-            <marker date="1556680919849" expanded="true" signature="34318:34434" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="34666:34753" ph="UPDATE renta... " />
-            <marker date="1556680919849" expanded="true" signature="35132:35223" ph="update renta... " />
-            <marker date="1556680919849" expanded="true" signature="35632:35915" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="36425:36709" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="37444:37728" ph="SELECT last_... customer" />
-            <marker date="1556680919849" expanded="true" signature="38434:38568" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39363:39618" ph="SELECT skier... skier_info" />
-            <marker date="1556680919849" expanded="true" signature="39474:39551" ph="SELECT skier... rentals_has_skiers" />
-            <marker date="1556680919849" expanded="true" signature="40398:40489" ph="SELECT ski_i... skier_equipment" />
-            <marker date="1556680919849" expanded="true" signature="41450:41518" ph="SELECT ski_i... skis" />
-            <marker date="1556680919849" expanded="true" signature="42341:42423" ph="SELECT boot_... " />
-            <marker date="1556680919849" expanded="true" signature="44031:44172" ph="INSERT INTO SKIER_INFO... " />
-            <marker date="1556680919849" expanded="true" signature="44539:44618" ph="SELECT renta... rentals" />
-            <marker date="1556680919849" expanded="true" signature="45352:45404" ph="SELECT first... customer" />
-            <marker date="1556680919849" expanded="true" signature="45352:45406" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
+            <marker date="1556683033492" expanded="true" signature="2786:2924" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="3631:3768" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="4455:4571" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="5274:5381" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6075:6181" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="6855:6939" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="8091:8236" ph="INSERT INTO CUSTOMER... " />
+            <marker date="1556683033492" expanded="true" signature="8515:8581" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="8853:8948" ph="INSERT INTO RENTALS... " />
+            <marker date="1556683033492" expanded="true" signature="9721:9787" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556683033492" expanded="true" signature="10009:10150" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="10426:10487" ph="SELECT renta... RENTALS" />
+            <marker date="1556683033492" expanded="true" signature="10720:10782" ph="SELECT skier... SKIER_INFO" />
+            <marker date="1556683033492" expanded="true" signature="11018:11089" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
+            <marker date="1556683033492" expanded="true" signature="11317:11384" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="11836:12072" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="12604:12906" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="13474:13722" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="14206:14387" ph="SELECT * FRO... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="14243:14320" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="15455:15521" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="15732:15858" ph="INSERT INTO skier_settings... " />
+            <marker date="1556683033492" expanded="true" signature="16135:16231" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="16492:16567" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="16789:16879" ph="INSERT INTO skier_equipment... " />
+            <marker date="1556683033492" expanded="true" signature="17146:17193" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="17406:17456" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="17671:17725" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="18187:18279" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="18565:18677" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="19112:19256" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="21270:21355" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="21972:22035" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="22657:22737" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="23222:23290" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="24113:24195" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="25147:25207" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="26088:26166" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="26562:26672" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="28216:28284" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="29112:29194" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="30146:30206" ph="SELECT helme... " />
+            <marker date="1556683033492" expanded="true" signature="32102:32198" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="32470:32518" ph="UPDATE skis " />
+            <marker date="1556683033492" expanded="true" signature="32869:32966" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="33241:33292" ph="UPDATE boots... " />
+            <marker date="1556683033492" expanded="true" signature="33592:33690" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34007:34062" ph="UPDATE helme... " />
+            <marker date="1556683033492" expanded="true" signature="34326:34427" ph="UPDATE skier... " />
+            <marker date="1556683033492" expanded="true" signature="34676:34792" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35024:35111" ph="UPDATE renta... " />
+            <marker date="1556683033492" expanded="true" signature="35490:35581" ph="update renta... " />
+            <marker date="1556683033492" expanded="true" signature="35990:36273" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="36783:37067" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="37802:38086" ph="SELECT last_... customer" />
+            <marker date="1556683033492" expanded="true" signature="38792:38926" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39721:39976" ph="SELECT skier... skier_info" />
+            <marker date="1556683033492" expanded="true" signature="39832:39909" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556683033492" expanded="true" signature="40756:40847" ph="SELECT ski_i... skier_equipment" />
+            <marker date="1556683033492" expanded="true" signature="41808:41876" ph="SELECT ski_i... skis" />
+            <marker date="1556683033492" expanded="true" signature="42699:42781" ph="SELECT boot_... " />
+            <marker date="1556683033492" expanded="true" signature="44389:44530" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556683033492" expanded="true" signature="44897:44976" ph="SELECT renta... rentals" />
+            <marker date="1556683033492" expanded="true" signature="45710:45762" ph="SELECT first... customer" />
+            <marker date="1556683033492" expanded="true" signature="45710:45764" ph="SELECT first... customer" />
           </folding>
         </state>
       </provider>
