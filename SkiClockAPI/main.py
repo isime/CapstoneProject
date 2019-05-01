@@ -18,11 +18,11 @@ def home_page():
     return jsonify({'Message': 'Home Page'})
 
 
-@app.route('/in_stock_skis')
-def get_in_stock_skis():
+@app.route('/in_stock_skis/<store_id>')
+def get_in_stock_skis(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    skisQuery = "SELECT ski_id, length, manufacturer, model FROM SKIS WHERE skis_out = FALSE ORDER BY manufacturer ASC;"
+    skisQuery = "SELECT ski_id, length, manufacturer, model FROM SKIS WHERE skis_out = FALSE AND current_store = {} ORDER BY manufacturer ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -45,11 +45,11 @@ def get_in_stock_skis():
     return jsonify(skiList)
 
 
-@app.route('/currently_out_skis')
-def get_currently_out_skis():
+@app.route('/currently_out_skis/<store_id>')
+def get_currently_out_skis(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    skisQuery = "SELECT ski_id, length, manufacturer, model FROM SKIS WHERE skis_out = TRUE ORDER BY manufacturer ASC;"
+    skisQuery = "SELECT ski_id, length, manufacturer, model FROM SKIS WHERE skis_out = TRUE AND current_store = {} ORDER BY manufacturer ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -72,11 +72,11 @@ def get_currently_out_skis():
     return jsonify(skiList)
 
 
-@app.route('/all_skis')
-def get_all_skis():
+@app.route('/all_skis/<store_id>')
+def get_all_skis(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    skisQuery = "SELECT ski_id, length, manufacturer, model FROM SKIS ORDER BY manufacturer ASC;"
+    skisQuery = "SELECT ski_id, length, manufacturer, model FROM SKIS WHERE current_store = {} ORDER BY manufacturer ASC;".format(store_id)
 
     cursor = db.cursor()
 
@@ -559,9 +559,6 @@ def add_skier_equipment():
 
 @app.route('/add_skier_signature', methods=['POST'])
 def add_skier_signature():
-
-    db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
-
     skierJson = request.get_json(force=True)
 
     skier_id = int(str(skierJson["skier_id"]))

@@ -1178,7 +1178,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="EmployeeLoginButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPN-oU-0tP">
-                                <rect key="frame" x="425" y="344" width="174" height="81"/>
+                                <rect key="frame" x="642" y="344" width="174" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -1186,7 +1186,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="yzJ-bb-kG6"/>
+                                    <action selector="LoginButtonPress:" destination="FP0-Gb-Zbf" eventType="touchUpInside" id="4vI-1x-6iv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="CustomerLogOut" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPB-Da-5MZ">
@@ -1203,10 +1203,29 @@
                                     <segue destination="b1K-vO-oKl" kind="show" id="zR7-Fo-Jrd"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Store Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Nyc-v9-Dun">
+                                <rect key="frame" x="429" y="369" width="166" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invalid Customer ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaX-4e-hdD">
+                                <rect key="frame" x="340" y="166" width="344" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Dik-ZW-Bxn"/>
                     </view>
+                    <connections>
+                        <outlet property="ErroLabel" destination="kaX-4e-hdD" id="0Oa-Dy-srA"/>
+                        <outlet property="StoreIDBox" destination="Nyc-v9-Dun" id="RaG-vM-KIC"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="employeeLoginToEmployeeHome" id="Ve7-Zb-HTq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izD-cB-iFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1253,7 +1272,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" id="q2Q-VR-AYS"/>
+                                    <action selector="EquipmentListButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="046-u0-06i"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="EmployeeLogOut" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4dD-1K-cip">
@@ -1274,15 +1293,18 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="YQ0-UR-3o9" kind="show" identifier="employeeDashboardToEquipmentHome" id="Iot-ys-fa1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.6953125" y="132.8125"/>
         </scene>
-        <!--View Controller-->
+        <!--Equipment Home Controller-->
         <scene sceneID="o7U-xn-bpI">
             <objects>
-                <viewController id="YQ0-UR-3o9" sceneMemberID="viewController">
+                <viewController id="YQ0-UR-3o9" customClass="EquipmentHomeController" customModule="SkiClock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kZB-pV-U8A">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1296,7 +1318,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PTk-PA-h8z" kind="show" id="mxB-0M-Ulv"/>
+                                    <segue destination="PTk-PA-h8z" kind="show" identifier="equipmentHomeToSkisIn" id="mxB-0M-Ulv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToAllSkis" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GCD-8I-oyC">
@@ -1308,7 +1330,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="OM7-xk-a9J" kind="show" id="fK9-Id-ms5"/>
+                                    <segue destination="OM7-xk-a9J" kind="show" identifier="equipmentHomeToAllSkis" id="fK9-Id-ms5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToSkisOut" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHl-Aq-AnN">
@@ -1320,7 +1342,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HOd-dV-fCo" kind="show" id="wYY-Kq-c5b"/>
+                                    <segue destination="HOd-dV-fCo" kind="show" identifier="equipmentHomeToSkisOut" id="wYY-Kq-c5b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToInStockBoots" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hil-AW-kF3">
@@ -3623,7 +3645,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" id="3yr-7T-43I"/>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="allSkisToEquipmentHome" id="3yr-7T-43I"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BaD-C2-MmR">
@@ -3654,7 +3676,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="n7Z-k1-Fji"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="allSkisToEmployeeDashboard" id="n7Z-k1-Fji"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkisInToSkisOut" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJi-Jy-4YR">
@@ -3666,7 +3688,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HOd-dV-fCo" kind="show" id="CUR-Mn-uLW"/>
+                                    <segue destination="HOd-dV-fCo" kind="show" identifier="allSkisToSkisOut" id="CUR-Mn-uLW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkisInToAllSkis" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ah-ww-BDc">
@@ -3678,7 +3700,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="OM7-xk-a9J" kind="show" id="BhL-zW-jjl"/>
+                                    <segue destination="OM7-xk-a9J" kind="show" identifier="skisInToAllSkis" id="BhL-zW-jjl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3729,7 +3751,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HOd-dV-fCo" kind="show" id="6Mr-f2-AWv"/>
+                                    <segue destination="HOd-dV-fCo" kind="show" identifier="allSkisToSkisOut" id="6Mr-f2-AWv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AllSkisToSkisIn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uP2-fc-ZaO">
@@ -3741,7 +3763,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PTk-PA-h8z" kind="show" id="abB-Dt-j5I"/>
+                                    <segue destination="PTk-PA-h8z" kind="show" identifier="allSkisToSkisIn" id="abB-Dt-j5I"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AllSkisToEquipment" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IfO-RP-qZw">
@@ -3753,7 +3775,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" id="XXX-i6-QvF"/>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="allSkisToEquipmentHome" id="XXX-i6-QvF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="AllSkisToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8h-ry-RSD">
@@ -3765,7 +3787,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7oX-mr-DXs"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="allSkisToEmployeeDash" id="7oX-mr-DXs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3816,7 +3838,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="OM7-xk-a9J" kind="show" id="ybZ-ul-uKM"/>
+                                    <segue destination="OM7-xk-a9J" kind="show" identifier="skisOutToAllSkis" id="ybZ-ul-uKM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkisOutToSkisIn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="May-Xh-L9l">
@@ -3828,7 +3850,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PTk-PA-h8z" kind="show" id="Ppg-Th-0zI"/>
+                                    <segue destination="PTk-PA-h8z" kind="show" identifier="skisOutToSkisIn" id="Ppg-Th-0zI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkisOutToEquipment" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0T3-7p-McD">
@@ -3840,7 +3862,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="YQ0-UR-3o9" kind="show" id="iZY-Sr-wmx"/>
+                                    <segue destination="YQ0-UR-3o9" kind="show" identifier="skisOutToEquipmentHome" id="iZY-Sr-wmx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="SkisOutToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Poc-sy-8SG">
@@ -3852,7 +3874,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Ci8-cY-bar"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="skisOutToEmployeeDash" id="Ci8-cY-bar"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4659,9 +4681,9 @@
         <segue reference="gKw-OD-kbf"/>
         <segue reference="i2r-Ea-1ft"/>
         <segue reference="CUR-Mn-uLW"/>
-        <segue reference="BhL-zW-jjl"/>
-        <segue reference="mxB-0M-Ulv"/>
-        <segue reference="9TI-AC-OZ1"/>
+        <segue reference="ybZ-ul-uKM"/>
+        <segue reference="Ppg-Th-0zI"/>
+        <segue reference="XRP-Cg-vPM"/>
         <segue reference="lUW-wJ-78P"/>
         <segue reference="gVk-6y-m9o"/>
         <segue reference="TYs-IV-HNd"/>
@@ -4672,13 +4694,13 @@
         <segue reference="8Br-3m-6yg"/>
         <segue reference="gli-9Y-JyR"/>
         <segue reference="weN-rC-xco"/>
-        <segue reference="3yr-7T-43I"/>
-        <segue reference="V7b-MN-DnW"/>
+        <segue reference="iZY-Sr-wmx"/>
+        <segue reference="Ci8-cY-bar"/>
         <segue reference="HNo-u8-9Qq"/>
-        <segue reference="OiK-lG-b0d"/>
+        <segue reference="FVS-K6-FRE"/>
         <segue reference="jZJ-cZ-NNI"/>
         <segue reference="GRU-ce-nTU"/>
         <segue reference="zR7-Fo-Jrd"/>
-        <segue reference="mbF-Lo-VOQ"/>
+        <segue reference="cOV-SV-TCY"/>
     </inferredMetricsTieBreakers>
 </document>

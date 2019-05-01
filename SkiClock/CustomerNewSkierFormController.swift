@@ -60,7 +60,7 @@ class CustomerNewSkierFormController: UIViewController, UIPickerViewDelegate, UI
         
         let jsonData = try? JSONSerialization.data(withJSONObject: skierJson)
         
-        let url = URL(string: "http://146.86.198.172:5000/customer_new_skier")
+        let url = URL(string: "http://10.0.0.7:5000/customer_new_skier")
         var request = URLRequest(url: url!)
         request.httpMethod = "Post"
         request.httpBody = jsonData

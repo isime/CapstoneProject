@@ -9,6 +9,24 @@
 import UIKit
 
 class EquipmentHomeController: UIViewController {
+    var store_id: Int!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "equipmentHomeToAllSkis"{
+            let nextScene = segue.destination as? AllSkisListController
+            nextScene!.store_id = store_id
+            
+        }
+        if segue.identifier == "equipmentHomeToSkisIn"{
+            let nextScene = segue.destination as? EquipmentListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "equipmentHomeToSkisOut"{
+            let nextScene = segue.destination as? SkisOutController
+            nextScene!.store_id = store_id
+        }
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

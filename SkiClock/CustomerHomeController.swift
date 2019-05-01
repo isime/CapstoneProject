@@ -42,7 +42,7 @@ class CustomerHomeController: UIViewController {
     }
     
     func getName(){
-        let nameUrl = "http://146.86.198.172:5000/customer_name/" + String(customer_id)
+        let nameUrl = "http://10.0.0.7:5000/customer_name/" + String(customer_id)
         guard let url = URL(string: nameUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

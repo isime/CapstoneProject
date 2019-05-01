@@ -36,6 +36,7 @@ struct Helmet: Decodable {
 }
 
 class EquipmentListController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    var store_id: Int!
     var skis = [Ski]()
     var id = [Int]()
     var length = [Int]()
@@ -60,8 +61,27 @@ class EquipmentListController: UIViewController, UITableViewDataSource, UITableV
     
     @IBOutlet weak var skisTable: UITableView!
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "skisInToAllSkis"{
+            let nextScene = segue.destination as? AllSkisListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allSkisToSkisOut"{
+            let nextScene = segue.destination as? SkisOutController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allSkisToEquipmentHome"{
+            let nextScene = segue.destination as? EquipmentHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "allSkisToEmployeeDashboard"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+    }
+    
     func getEquipment(){
-        let equipmentUrl = "http://146.86.198.172:5000/in_stock_skis"
+        let equipmentUrl = "http://10.0.0.7:5000/in_stock_skis/" + String(store_id)
         guard let url = URL(string: equipmentUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

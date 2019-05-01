@@ -9,6 +9,7 @@
 import UIKit
 
 class SkisOutController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    var store_id: Int!
     var skis = [Ski]()
     var id = [Int]()
     var length = [Int]()
@@ -31,8 +32,27 @@ class SkisOutController: UIViewController, UITableViewDataSource, UITableViewDel
         return skiCell
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "skisOutToAllSkis"{
+            let nextScene = segue.destination as? AllSkisListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skisOutToSkisIn"{
+            let nextScene = segue.destination as? EquipmentListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skisOutToEquipmentHome"{
+            let nextScene = segue.destination as? EquipmentHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "skisOutToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+    }
+    
     func getEquipment(){
-        let equipmentUrl = "http://146.86.198.172:5000/currently_out_skis"
+        let equipmentUrl = "http://10.0.0.7:5000/currently_out_skis/" + String(store_id)
         guard let url = URL(string: equipmentUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in
