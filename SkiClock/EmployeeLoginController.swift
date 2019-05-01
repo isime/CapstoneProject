@@ -55,6 +55,7 @@ class EmployeeLoginController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        StoreIDBox.keyboardType = .numberPad
 
         // Do any additional setup after loading the view.
     }

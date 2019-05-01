@@ -21,7 +21,7 @@ def get_overdue_dates():
 
     threeDays = get_one_day_back(twoDays)
     datesList.append(threeDays["string"])
-    print(datesList)
+    # print(datesList)
 
     return datesList
 

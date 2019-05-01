@@ -294,7 +294,7 @@ def add_new_customer():
     today = date.strftime("%m") + "/" + date.strftime("%d") + "/" + date.strftime("%Y")
 
     customerQuery = 'INSERT INTO CUSTOMER(first_name, last_name, address, city, state, zip_code, email, phone) VALUES ("{}", "{}", "{}", "{}", "{}", "{}", "{}", "{}");'.format(fname, lname, address, city, state, zip, email, phone)
-    print(customerQuery)
+    # print(customerQuery)
     cursor = db.cursor()
     cursor.execute(customerQuery)
     db.commit()
@@ -312,7 +312,7 @@ def add_new_customer():
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
     due_date = helperFunctions.get_due_date(days)
     rentalQuery = 'INSERT INTO RENTALS(customer_id, total_skiers, date_out, due_date, store_id) VALUES ("{}", 0, "{}", "{}", {});'.format(cusID, today, due_date, store_id)
-    print(rentalQuery)
+    # print(rentalQuery)
     cursor = db.cursor()
     cursor.execute(rentalQuery)
     db.commit()
@@ -628,7 +628,7 @@ def get_return(asset_id):
         return jsonify(noInfo)
 
     skier_id = infoList[0]["skier_id"]
-    print('SKIER ID: ', skier_id)
+    # print('SKIER ID: ', skier_id)
     ski_id = infoList[0]["ski_id"]
     boot_id = infoList[0]["boot_id"]
     helmet_id = infoList[0]["helmet_id"]
@@ -968,7 +968,7 @@ def return_skier_equipment():
         if helmet_returned:
             db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
             skierEquipmentQuery = 'UPDATE skier_equipment set helmet_returned = "{}" WHERE skier_id = {} AND current_equipment = TRUE;'.format(today, skier_id)
-            print(skierEquipmentQuery)
+            # print(skierEquipmentQuery)
             cursor = db.cursor()
             cursor.execute(skierEquipmentQuery)
             db.commit()
@@ -1064,7 +1064,7 @@ def get_tomorrows_returns(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
     rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.due_date = "{}" AND rentals.skiers_picked_up > 0 AND rentals.skiers_returned < rentals.skiers_picked_up) AND store_id = {}) Order BY customer.last_name ASC;'.format(tomorrow, store_id)
-    print(rentalsQuery)
+    # print(rentalsQuery)
     cursor = db.cursor()
     cursor.execute(rentalsQuery)
     rentals = [rentals[0] for rentals in cursor.description]
