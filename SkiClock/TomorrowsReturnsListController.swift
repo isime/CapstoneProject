@@ -15,6 +15,7 @@ class TomorrowsReturnsListController: UIViewController, UITableViewDataSource, U
     var last_name = [String]()
     var first_name = [String]()
     var customer_id = [Int]()
+    var store_id: Int!
 
     @IBOutlet weak var TomorrowsReturnsTable: UITableView!
     
@@ -42,12 +43,25 @@ class TomorrowsReturnsListController: UIViewController, UITableViewDataSource, U
             nextScene!.rental_id = self.rental_id[indexPath!.row]
             nextScene!.customer_id = self.customer_id[indexPath!.row]
             nextScene!.customer_l_name = self.last_name[indexPath!.row]
-            nextScene?.customer_f_name = self.first_name[indexPath!.row]
+            nextScene!.customer_f_name = self.first_name[indexPath!.row]
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "tomorrowsReturnToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "tomorrowsReturnToReturnSearch"{
+            let nextScene = segue.destination as? ReturnsHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "tomorrowsReturnsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
     
     func getTomorrowsReturns() {
-        let tomorrowsReturnsUrl = "http://10.0.0.7:5000/tomorrows_returns"
+        let tomorrowsReturnsUrl = "http://10.0.0.7:5000/tomorrows_returns/" + String(store_id)
         guard let url = URL(string: tomorrowsReturnsUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

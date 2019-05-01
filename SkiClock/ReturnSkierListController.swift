@@ -19,6 +19,7 @@ class ReturnSkierListController: UIViewController, UITableViewDataSource, UITabl
     var customer_f_name: String!
     var customer_l_name: String!
     var rental_id: Int!
+    var store_id: Int!
     
     var skiers = [ReturnSkierInfo]()
     var skier_id = [Int]()
@@ -61,6 +62,19 @@ class ReturnSkierListController: UIViewController, UITableViewDataSource, UITabl
             nextScene!.customer_f_name = self.customer_f_name
             nextScene!.customer_l_name = self.customer_l_name
             nextScene!.customer_id = self.customer_id
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierListToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierListToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierListToReturnSearch"{
+            let nextScene = segue.destination as? ReturnsHomeController
+            nextScene!.store_id = store_id
         }
     }
     

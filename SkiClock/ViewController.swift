@@ -23,6 +23,10 @@ class ViewController: UIViewController{
             let nextScene = segue.destination as? NewCustomerController
             nextScene!.store_id = store_id
         }
+        if segue.identifier == "employeeDashToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
     }
     
     override func viewDidLoad() {

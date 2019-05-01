@@ -935,6 +935,7 @@ def return_skier_equipment():
     helmet_returned = helperFunctions.check_equipment_return(str(skierJson["helmet_back"]))
     helmet_already = helperFunctions.check_equipment_return(str(skierJson["helmet_already"]))
     rental_id = int(str(skierJson['rental_id']))
+    store_id = int(str(skierJson["store_id"]))
 
     if not skis_already:
         if skis_returned:
@@ -946,7 +947,7 @@ def return_skier_equipment():
             db.commit()
             if ski_id != 0:
                 db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
-                skisQuery = 'UPDATE skis SET skis_out = FALSE WHERE ski_id = {};'.format(ski_id)
+                skisQuery = 'UPDATE skis SET skis_out = FALSE, current_store = {} WHERE ski_id = {};'.format(store_id, ski_id)
                 cursor = db.cursor()
                 cursor.execute(skisQuery)
                 db.commit()
@@ -961,7 +962,7 @@ def return_skier_equipment():
             db.commit()
             if boot_id != 0:
                 db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
-                bootsQuery = 'UPDATE boots SET boots_out = FALSE WHERE boot_id = {};'.format(boot_id)
+                bootsQuery = 'UPDATE boots SET boots_out = FALSE, current_store = {} WHERE boot_id = {};'.format(store_id, boot_id)
                 cursor = db.cursor()
                 cursor.execute(bootsQuery)
                 db.commit()
@@ -976,7 +977,7 @@ def return_skier_equipment():
             db.commit()
             if helmet_id != 0:
                 db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
-                helmetQuery = 'UPDATE helmet SET helmet_out = FALSE WHERE helmet_id = {};'.format(helmet_id)
+                helmetQuery = 'UPDATE helmet SET helmet_out = FALSE, current_store = {} WHERE helmet_id = {};'.format(store_id, helmet_id)
                 cursor.execute(helmetQuery)
                 db.commit()
 
@@ -1005,8 +1006,8 @@ def return_skier_equipment():
     return jsonify("done")
 
 
-@app.route('/overdue_returns')
-def get_overdue_returns():
+@app.route('/overdue_returns/<store_id>')
+def get_overdue_returns(store_id):
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
     cursor = db.cursor()
     yesterday = helperFunctions.get_yesterday()
@@ -1018,7 +1019,7 @@ def get_overdue_returns():
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
     # rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.overdue = TRUE)) Order BY customer.last_name ASC;'
-    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.overdue = TRUE AND rentals.skiers_picked_up > 0 AND rentals.skiers_returned < rentals.skiers_picked_up)) Order BY customer.last_name ASC;'
+    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.overdue = TRUE AND rentals.skiers_picked_up > 0 AND rentals.skiers_returned < rentals.skiers_picked_up) AND store_id = {}) Order BY customer.last_name ASC;'.format(store_id)
 
     cursor = db.cursor()
     cursor.execute(rentalsQuery)
@@ -1032,12 +1033,12 @@ def get_overdue_returns():
 
     return jsonify(rentalList)
 
-@app.route('/todays_returns')
-def get_todays_returns():
+@app.route('/todays_returns/<store_id>')
+def get_todays_returns(store_id):
     today = helperFunctions.get_today_string()
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.due_date = "{}" AND rentals.skiers_picked_up > 0 AND rentals.skiers_returned < rentals.skiers_picked_up)) Order BY customer.last_name ASC;'.format(today)
+    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.due_date = "{}" AND rentals.skiers_picked_up > 0 AND rentals.skiers_returned < rentals.skiers_picked_up) AND store_id = {}) Order BY customer.last_name ASC;'.format(today, store_id)
 
     cursor = db.cursor()
     cursor.execute(rentalsQuery)
@@ -1060,13 +1061,13 @@ def get_todays_returns():
 
     return jsonify(rentalList)
 
-@app.route('/tomorrows_returns')
-def get_tomorrows_returns():
+@app.route('/tomorrows_returns/<store_id>')
+def get_tomorrows_returns(store_id):
     tomorrow = helperFunctions.get_tomorrows_date()
     db = pymysql.connect("localhost", "admin", "admin", "Ski_Clock_DB")
 
-    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.due_date = "{}" AND rentals.skiers_picked_up > 0 AND rentals.skiers_returned < rentals.skiers_picked_up)) Order BY customer.last_name ASC;'.format(tomorrow)
-
+    rentalsQuery = 'SELECT last_name, first_name, rental_id, rentals.customer_id FROM customer, rentals WHERE (customer.customer_id = rentals.customer_id AND (rentals.due_date = "{}" AND rentals.skiers_picked_up > 0 AND rentals.skiers_returned < rentals.skiers_picked_up) AND store_id = {}) Order BY customer.last_name ASC;'.format(tomorrow, store_id)
+    print(rentalsQuery)
     cursor = db.cursor()
     cursor.execute(rentalsQuery)
     rentals = [rentals[0] for rentals in cursor.description]

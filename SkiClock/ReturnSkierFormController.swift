@@ -59,6 +59,7 @@ class ReturnSkierFormController: UIViewController {
     var helmetTaken: Bool = true
     var bootsTaken: Bool = true
     var skisTaken: Bool = true
+    var store_id: Int!
     
     @IBOutlet weak var customerFName: UILabel!
     @IBOutlet weak var customerLName: UILabel!
@@ -380,7 +381,7 @@ class ReturnSkierFormController: UIViewController {
     }
     
     func sendReturnData(){
-        let returnJson: [String: String] = ["skier_id": String(skier_id), "ski_id": String(ski_id), "skis_back": skis_back, "skis_already": skis_already, "boot_id": String(boot_id), "boots_back": boots_back, "boots_already": boots_already, "helmet_id": String(helmet_id), "helmet_back": helmet_back, "helmet_already": helmet_already, "rental_id": String(rental_id)]
+        let returnJson: [String: String] = ["skier_id": String(skier_id), "ski_id": String(ski_id), "skis_back": skis_back, "skis_already": skis_already, "boot_id": String(boot_id), "boots_back": boots_back, "boots_already": boots_already, "helmet_id": String(helmet_id), "helmet_back": helmet_back, "helmet_already": helmet_already, "rental_id": String(rental_id), "store_id": String(store_id)]
         
         let jsonData = try? JSONSerialization.data(withJSONObject: returnJson)
         
@@ -424,6 +425,19 @@ class ReturnSkierFormController: UIViewController {
             nextScene!.customer_id = customer_id
             nextScene!.customer_f_name = customer_f_name
             nextScene!.customer_l_name = customer_l_name
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkier2ToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierForm2ToReturnSearch"{
+            let nextScene = segue.destination as? ReturnsHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierForm2ToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
         }
     }
     

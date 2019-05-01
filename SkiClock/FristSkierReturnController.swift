@@ -35,6 +35,7 @@ struct SkierReturnInfo: Decodable {
 
 class FristSkierReturnController: UIViewController {
     
+    var store_id: Int!
     var assetID: String!
     var skier_f_name: String!
     var skier_l_name: String!
@@ -419,7 +420,8 @@ class FristSkierReturnController: UIViewController {
     }
     
     func sendSkierReturn(){
-        let returnSkierJson: [String: String] = ["skier_id": String(skier_id), "ski_id": String(ski_id), "skis_back": skis_back, "skis_already": skis_already, "boot_id": String(boot_id), "boots_back": boots_back, "boots_already": boots_already, "helmet_id": String(helmet_id), "helmet_back": helmet_back, "helmet_already": helmet_already, "rental_id": String(rental_id)]
+        let returnSkierJson: [String: String] = ["skier_id": String(skier_id), "ski_id": String(ski_id), "skis_back": skis_back, "skis_already": skis_already, "boot_id": String(boot_id), "boots_back": boots_back, "boots_already": boots_already, "helmet_id": String(helmet_id), "helmet_back": helmet_back, "helmet_already": helmet_already, "rental_id": String(rental_id),
+            "store_id": String(store_id)]
         
         let jsonData = try? JSONSerialization.data(withJSONObject: returnSkierJson)
         
@@ -444,6 +446,19 @@ class FristSkierReturnController: UIViewController {
             nextScene!.customer_id = customer_id
             nextScene!.customer_f_name = customer_f_name
             nextScene!.customer_l_name = customer_l_name
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierToRentalSearch"{
+            let nextScene = segue.destination as? ReturnsHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "returnSkierToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
 

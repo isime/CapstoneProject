@@ -15,6 +15,7 @@ class TodaysReturnsListController: UIViewController, UITableViewDataSource, UITa
     var last_name = [String]()
     var first_name = [String]()
     var customer_id = [Int]()
+    var store_id: Int!
 
     @IBOutlet weak var TodaysReturnsTable: UITableView!
     
@@ -43,11 +44,24 @@ class TodaysReturnsListController: UIViewController, UITableViewDataSource, UITa
             nextScene!.customer_id = self.customer_id[indexPath!.row]
             nextScene!.customer_f_name = self.first_name[indexPath!.row]
             nextScene!.customer_l_name = self.last_name[indexPath!.row]
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "todaysReturnsToReturnSearch"{
+            let nextScene = segue.destination as? ReturnsHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "todaysReturnsToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "todaysReturnsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
     
     func getTodaysReturns(){
-        let todaysReturnsUrl = "http://10.0.0.7:5000/todays_returns"
+        let todaysReturnsUrl = "http://10.0.0.7:5000/todays_returns/" + String(store_id)
         guard let url = URL(string: todaysReturnsUrl) else { return }
         
         URLSession.shared.dataTask(with: url) {

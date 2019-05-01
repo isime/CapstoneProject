@@ -14,6 +14,7 @@ class OverdueReturnsListController: UIViewController, UITableViewDataSource, UIT
     var last_name = [String]()
     var first_name = [String]()
     var customer_id = [Int]()
+    var store_id: Int!
 
     @IBOutlet weak var OverdueReturnsTable: UITableView!
     
@@ -42,11 +43,24 @@ class OverdueReturnsListController: UIViewController, UITableViewDataSource, UIT
             nextScene!.customer_id = self.customer_id[indexPath!.row]
             nextScene!.customer_l_name = self.last_name[indexPath!.row]
             nextScene!.customer_f_name = self.first_name[indexPath!.row]
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "overdueReturnsToReturnSearch"{
+            let nextScene = segue.destination as? ReturnsHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "overdueReturnsToRentalsHome"{
+            let nextScene = segue.destination as? RentalHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "overdueReturnsToEmployeeDash"{
+            let nextScene = segue.destination as? ViewController
+            nextScene!.store_id = store_id
         }
     }
     
     func getOverdueReturns(){
-    let overdueReturnsUrl = "http://10.0.0.7:5000/overdue_returns"
+    let overdueReturnsUrl = "http://10.0.0.7:5000/overdue_returns/" + String(store_id)
         guard let url = URL(string: overdueReturnsUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

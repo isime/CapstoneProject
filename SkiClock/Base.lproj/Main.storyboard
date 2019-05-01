@@ -1248,7 +1248,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="XRP-Cg-vPM"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="employeeDashToRentalsHome" id="XRP-Cg-vPM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToCustomerForm" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tn2-vu-ec7">
@@ -1738,7 +1738,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="e84-iO-uXv"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="tomorrowsReturnToRentalsHome" id="e84-iO-uXv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TomorrowsReturnsToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lvz-LA-ddh">
@@ -1750,7 +1750,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="inW-wg-wsr"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="tomorrowsReturnsToEmployeeDash" id="inW-wg-wsr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="TomorrowaReturnsToReturnSearch" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rlq-Pg-cxY">
@@ -1762,7 +1762,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Avb-7X-57l" kind="show" id="3eI-Nz-wpQ"/>
+                                    <segue destination="Avb-7X-57l" kind="show" identifier="tomorrowsReturnToReturnSearch" id="3eI-Nz-wpQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1816,7 +1816,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="Mff-F9-hMB"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="todaysReturnsToRentalsHome" id="Mff-F9-hMB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="OverdueReturnsToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbh-AD-cTB">
@@ -1828,7 +1828,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="tij-pg-GR0"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="todaysReturnsToEmployeeDash" id="tij-pg-GR0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="OverdueReturnsToReturnSearch" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gD8-sx-L7l">
@@ -1840,7 +1840,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Avb-7X-57l" kind="show" id="BYK-uB-Sqz"/>
+                                    <segue destination="Avb-7X-57l" kind="show" identifier="todaysReturnsToReturnSearch" id="BYK-uB-Sqz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1906,7 +1906,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Avb-7X-57l" kind="show" id="OK1-vz-Fuw"/>
+                                    <segue destination="Avb-7X-57l" kind="show" identifier="overdueReturnsToReturnSearch" id="OK1-vz-Fuw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="OverdueReturnsToRentalsHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ro6-NE-t1m">
@@ -1918,7 +1918,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="8In-xw-4Na"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="overdueReturnsToRentalsHome" id="8In-xw-4Na"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2889,7 +2889,7 @@
                                 <connections>
                                     <action selector="RentalsHomeButtonPress:" destination="hXi-BF-eH8" eventType="touchUpInside" id="xRi-67-mWT"/>
                                     <action selector="ToRentalsHomeButtonPress:" destination="RLb-GG-6RH" eventType="touchUpInside" id="YDD-Zh-ojW"/>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="KsI-pJ-jv4"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="returnSkierForm2ToRentalsHome" id="KsI-pJ-jv4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="FirstSkierReturnToHomeSkierReturn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRX-DE-xWt">
@@ -2903,7 +2903,7 @@
                                 <connections>
                                     <action selector="HomeButtonPRess:" destination="hXi-BF-eH8" eventType="touchUpInside" id="Hv2-5W-lY2"/>
                                     <action selector="ToHomeButtonPress:" destination="RLb-GG-6RH" eventType="touchUpInside" id="gRR-em-p3N"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="PmR-Zx-njV"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="returnSkier2ToEmployeeDash" id="PmR-Zx-njV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsReturnedButtonSkierReturn" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMh-JY-8yF">
@@ -2944,7 +2944,7 @@
                                 <connections>
                                     <action selector="RentalSearchButtonPress:" destination="hXi-BF-eH8" eventType="touchUpInside" id="71C-nW-lBq"/>
                                     <action selector="ToRentalSearchButtonPress:" destination="RLb-GG-6RH" eventType="touchUpInside" id="bEO-dI-qh6"/>
-                                    <segue destination="Avb-7X-57l" kind="show" id="HYP-xE-9Az"/>
+                                    <segue destination="Avb-7X-57l" kind="show" identifier="returnSkierForm2ToReturnSearch" id="HYP-xE-9Az"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="bootModelSkierReturn" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yes-jx-ihJ">
@@ -3070,7 +3070,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="fZ7-8k-DmC"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="returnSkierListToRentalsHome" id="fZ7-8k-DmC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ReturnSkierListToReturnSearch" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wYP-cr-8oh">
@@ -3081,6 +3081,9 @@
                                 <state key="normal" title="Return Search">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Avb-7X-57l" kind="show" identifier="returnSkierListToReturnSearch" id="Y38-iN-Rqn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ReturnSkierListToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5d0-gM-hgf">
                                 <rect key="frame" x="452" y="712" width="120" height="36"/>
@@ -3091,7 +3094,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="pyh-kJ-t1g"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="returnSkierListToEmployeeDash" id="pyh-kJ-t1g"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3313,7 +3316,7 @@
                                 </state>
                                 <connections>
                                     <action selector="ToRentalsHomeButtonPress:" destination="RLb-GG-6RH" eventType="touchUpInside" id="TcO-A8-lIf"/>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="NYt-WQ-Ma8"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="returnSkierToRentalsHome" id="NYt-WQ-Ma8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="FirstSkierReturnToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ClL-1m-o3c">
@@ -3326,7 +3329,7 @@
                                 </state>
                                 <connections>
                                     <action selector="ToHomeButtonPress:" destination="RLb-GG-6RH" eventType="touchUpInside" id="ubN-Jy-DuG"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="aIu-9O-RhP"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="returnSkierToEmployeeDash" id="aIu-9O-RhP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="BootsReturnedButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cl8-Id-VuN">
@@ -3364,7 +3367,7 @@
                                 </state>
                                 <connections>
                                     <action selector="ToRentalSearchButtonPress:" destination="RLb-GG-6RH" eventType="touchUpInside" id="f8O-7l-kwc"/>
-                                    <segue destination="Avb-7X-57l" kind="show" id="Bqa-Zu-xH4"/>
+                                    <segue destination="Avb-7X-57l" kind="show" identifier="returnSkierToRentalSearch" id="Bqa-Zu-xH4"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" restorationIdentifier="bootModel" text="N/A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ped-Ms-i0Q">
@@ -3471,7 +3474,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="nRf-Z1-5qz" kind="show" id="YOi-Aq-E5Z"/>
+                                    <segue destination="nRf-Z1-5qz" kind="show" identifier="returnSearchToRentalsHome" id="YOi-Aq-E5Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="RentalSearchToHome" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwY-c7-MSO">
@@ -3482,7 +3485,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Zhp-Vu-HoI"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="returnSearchToEmployeeDash" id="Zhp-Vu-HoI"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="assetIDSearch" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Asset ID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KfA-Pn-5pM">
@@ -3568,7 +3571,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Avb-7X-57l" kind="show" id="lUW-wJ-78P"/>
+                                    <segue destination="Avb-7X-57l" kind="show" identifier="rentalsHomeToReturnSearch" id="lUW-wJ-78P"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToOverdueReturns" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKF-pM-q3W">
@@ -3580,7 +3583,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2bF-JB-wXs" kind="show" id="K4s-lg-cQJ"/>
+                                    <segue destination="2bF-JB-wXs" kind="show" identifier="rentalsHomeToOverDueReturns" id="K4s-lg-cQJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToTomorrowsPickUps" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3C-G0-gow">
@@ -3604,7 +3607,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="2n0-by-phu" kind="show" id="Bw3-Go-Y7w"/>
+                                    <segue destination="2n0-by-phu" kind="show" identifier="rentalsHomeToTodaysReturns" id="Bw3-Go-Y7w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="ToTomorrowsReturns" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kkb-cj-v6T">
@@ -3616,7 +3619,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Xwt-12-4bL" kind="show" id="73p-fF-Gcf"/>
+                                    <segue destination="Xwt-12-4bL" kind="show" identifier="rentalsHomeToTomorrowsReturns" id="73p-fF-Gcf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4653,7 +4656,7 @@
                                 <connections>
                                     <action selector="sendNextSkier:" destination="PNg-Qx-Yeh" eventType="touchUpInside" id="hkJ-34-2VZ"/>
                                     <action selector="sendSkierInfo:" destination="sZU-k4-DBn" eventType="touchUpInside" id="kks-94-gax"/>
-                                    <segue destination="sZU-k4-DBn" kind="show" id="hYr-3n-ksN"/>
+                                    <segue destination="sZU-k4-DBn" kind="show" identifier="nextNewSkierToAddSkier" id="hYr-3n-ksN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -4683,9 +4686,9 @@
         <segue reference="CUR-Mn-uLW"/>
         <segue reference="ybZ-ul-uKM"/>
         <segue reference="Ppg-Th-0zI"/>
-        <segue reference="XRP-Cg-vPM"/>
-        <segue reference="lUW-wJ-78P"/>
-        <segue reference="gVk-6y-m9o"/>
+        <segue reference="8In-xw-4Na"/>
+        <segue reference="OK1-vz-Fuw"/>
+        <segue reference="XcC-BU-neU"/>
         <segue reference="TYs-IV-HNd"/>
         <segue reference="Ihp-Fv-UPA"/>
         <segue reference="Pzt-xP-fnb"/>
@@ -4695,7 +4698,7 @@
         <segue reference="vyn-Bo-3er"/>
         <segue reference="u2F-cW-NK3"/>
         <segue reference="17g-Yu-QGp"/>
-        <segue reference="9ov-pg-mSw"/>
+        <segue reference="I3k-L5-WpH"/>
         <segue reference="HNo-u8-9Qq"/>
         <segue reference="FVS-K6-FRE"/>
         <segue reference="jZJ-cZ-NNI"/>

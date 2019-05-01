@@ -10,6 +10,27 @@ import UIKit
 
 class RentalHomeController: UIViewController {
 
+    var store_id: Int!
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "rentalsHomeToReturnSearch"{
+            let nextScene = segue.destination as? ReturnsHomeController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "rentalsHomeToOverDueReturns"{
+            let nextScene = segue.destination as? OverdueReturnsListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "rentalsHomeToTodaysReturns"{
+            let nextScene = segue.destination as? TodaysReturnsListController
+            nextScene!.store_id = store_id
+        }
+        if segue.identifier == "rentalsHomeToTomorrowsReturns"{
+            let nextScene = segue.destination as? TomorrowsReturnsListController
+            nextScene!.store_id = store_id
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
