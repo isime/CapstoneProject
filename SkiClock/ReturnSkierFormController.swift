@@ -334,7 +334,7 @@ class ReturnSkierFormController: UIViewController {
     }
     
     func getSkierReturnInfo(){
-        let skierReturnUrl = "http://10.0.0.7:5000/get_skier_return/" + String(skier_id)
+        let skierReturnUrl = "http://192.168.1.148:5000/get_skier_return/" + String(skier_id)
         guard let url = URL(string: skierReturnUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in
@@ -385,7 +385,7 @@ class ReturnSkierFormController: UIViewController {
         
         let jsonData = try? JSONSerialization.data(withJSONObject: returnJson)
         
-        let url = URL(string: "http://10.0.0.7:5000/return_skier_equipment")
+        let url = URL(string: "http://192.168.1.148:5000/return_skier_equipment")
         var request = URLRequest(url: url!)
         request.httpMethod = "Post"
         request.httpBody = jsonData

@@ -56,7 +56,7 @@ class TomorrowsPickUpsController: UIViewController, UITableViewDataSource, UITab
     }
     
     func getTomorrowsPickUps(){
-        let tomorrowsPickUpsUrl = "http://10.0.0.7:5000/tomorrows_rentals/" + String(store_id)
+        let tomorrowsPickUpsUrl = "http://192.168.1.148:5000/tomorrows_rentals/" + String(store_id)
         guard let url = URL(string: tomorrowsPickUpsUrl) else { return }
         
         URLSession.shared.dataTask(with: url) {

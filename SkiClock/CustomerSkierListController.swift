@@ -81,7 +81,7 @@ class CustomerSkierListController: UIViewController, UITableViewDataSource, UITa
     }
     
     func getCustomerSkiers(){
-        let customerSkiersUrl = "http://10.0.0.7:5000/customer_skiers/" + String(customer_id)
+        let customerSkiersUrl = "http://192.168.1.148:5000/customer_skiers/" + String(customer_id)
         
         guard let url = URL(string: customerSkiersUrl) else { return }
         

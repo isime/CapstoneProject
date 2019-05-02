@@ -3,11 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="8550bbe6-da18-46e9-9676-042d52405bff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/UserInterfaceState.xcuserstate" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcodeproj/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/SkiClock.xcodeproj/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/SkiClock.xcworkspace/xcuserdata/Iansime.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/EmployeeLoginController.swift" afterPath="$PROJECT_DIR$/SkiClock/EmployeeLoginController.swift" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClockAPI/helperFunctions.py" afterPath="$PROJECT_DIR$/SkiClockAPI/helperFunctions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClockAPI/main.py" afterPath="$PROJECT_DIR$/SkiClockAPI/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AddSkierController.swift" afterPath="$PROJECT_DIR$/SkiClock/AddSkierController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllBootsController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllBootsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllHelmetsController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllHelmetsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/AllSkisListController.swift" afterPath="$PROJECT_DIR$/SkiClock/AllSkisListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/BootsInController.swift" afterPath="$PROJECT_DIR$/SkiClock/BootsInController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/BootsOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/BootsOutController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerHomeController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerHomeController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerNewSkierFormController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerNewSkierFormController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalSkierInfoController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalSkierInfoController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerRentalsSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerRentalsSkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/CustomerSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/CustomerSkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/EquipmentListController.swift" afterPath="$PROJECT_DIR$/SkiClock/EquipmentListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/FristSkierReturnController.swift" afterPath="$PROJECT_DIR$/SkiClock/FristSkierReturnController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/HelmetsInController.swift" afterPath="$PROJECT_DIR$/SkiClock/HelmetsInController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/HelmetsOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/HelmetsOutController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/NewCustomerController.swift" afterPath="$PROJECT_DIR$/SkiClock/NewCustomerController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/NextNewSkierController.swift" afterPath="$PROJECT_DIR$/SkiClock/NextNewSkierController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/OverduePickUpsController.swift" afterPath="$PROJECT_DIR$/SkiClock/OverduePickUpsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/OverdueReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/OverdueReturnsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/RentalsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/RentalsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ReturnSkierFormController.swift" afterPath="$PROJECT_DIR$/SkiClock/ReturnSkierFormController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/ReturnSkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/ReturnSkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SecondRentalAgreementPageController.swift" afterPath="$PROJECT_DIR$/SkiClock/SecondRentalAgreementPageController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierEquipmentFormContoller.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierEquipmentFormContoller.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierInfoController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierInfoController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkierListController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkierListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/SkisOutController.swift" afterPath="$PROJECT_DIR$/SkiClock/SkisOutController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TodaysReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/TodaysReturnsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TomorrowsPickUpsController.swift" afterPath="$PROJECT_DIR$/SkiClock/TomorrowsPickUpsController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TomorrowsReturnsListController.swift" afterPath="$PROJECT_DIR$/SkiClock/TomorrowsReturnsListController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SkiClock/TransferCheckInController.swift" afterPath="$PROJECT_DIR$/SkiClock/TransferCheckInController.swift" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +51,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="966" column="26" lean-forward="true" selection-start-line="966" selection-start-column="26" selection-end-line="966" selection-end-column="26" />
+            <state relative-caret-position="15">
+              <caret line="966" column="26" lean-forward="false" selection-start-line="966" selection-start-column="26" selection-end-line="966" selection-end-column="26" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1556715629678" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
@@ -110,8 +140,8 @@
       <file leaf-file-name="helperFunctions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SkiClockAPI/helperFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="113">
+              <caret line="212" column="36" lean-forward="false" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -142,9 +172,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1187" />
-    <option name="y" value="16" />
-    <option name="width" value="1322" />
+    <option name="y" value="32" />
+    <option name="width" value="1280" />
     <option name="height" value="768" />
   </component>
   <component name="ProjectView">
@@ -162,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,6 +207,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,10 +241,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1360" height="768" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="32" width="1280" height="768" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.265625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -247,6 +275,101 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14490">
+          <caret line="966" column="26" lean-forward="false" selection-start-line="966" selection-start-column="26" selection-end-line="966" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1556715629678" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />
+            <marker date="1556715629678" expanded="true" signature="1307:1430" ph="SELECT ski_i... SKIS" />
+            <marker date="1556715629678" expanded="true" signature="2050:2153" ph="SELECT ski_i... SKIS" />
+            <marker date="1556715629678" expanded="true" signature="2786:2924" ph="SELECT boot_... " />
+            <marker date="1556715629678" expanded="true" signature="3631:3768" ph="SELECT boot_... " />
+            <marker date="1556715629678" expanded="true" signature="4455:4571" ph="SELECT boot_... " />
+            <marker date="1556715629678" expanded="true" signature="5274:5381" ph="SELECT helme... " />
+            <marker date="1556715629678" expanded="true" signature="6075:6181" ph="SELECT helme... " />
+            <marker date="1556715629678" expanded="true" signature="6855:6939" ph="SELECT helme... " />
+            <marker date="1556715629678" expanded="true" signature="8136:8281" ph="INSERT INTO CUSTOMER... " />
+            <marker date="1556715629678" expanded="true" signature="8562:8628" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556715629678" expanded="true" signature="8900:9009" ph="INSERT INTO RENTALS... " />
+            <marker date="1556715629678" expanded="true" signature="9794:9860" ph="SELECT custo... CUSTOMER" />
+            <marker date="1556715629678" expanded="true" signature="10082:10223" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556715629678" expanded="true" signature="10499:10560" ph="SELECT renta... RENTALS" />
+            <marker date="1556715629678" expanded="true" signature="10793:10855" ph="SELECT skier... SKIER_INFO" />
+            <marker date="1556715629678" expanded="true" signature="11091:11162" ph="INSERT INTO RENTALS_HAS_SKIERS... " />
+            <marker date="1556715629678" expanded="true" signature="11390:11457" ph="UPDATE renta... " />
+            <marker date="1556715629678" expanded="true" signature="11928:12182" ph="SELECT last_... customer" />
+            <marker date="1556715629678" expanded="true" signature="12743:13063" ph="SELECT last_... customer" />
+            <marker date="1556715629678" expanded="true" signature="13660:13926" ph="SELECT last_... customer" />
+            <marker date="1556715629678" expanded="true" signature="14420:14601" ph="SELECT * FRO... skier_info" />
+            <marker date="1556715629678" expanded="true" signature="14457:14534" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556715629678" expanded="true" signature="15669:15735" ph="UPDATE skier... " />
+            <marker date="1556715629678" expanded="true" signature="15946:16072" ph="INSERT INTO skier_settings... " />
+            <marker date="1556715629678" expanded="true" signature="16322:16418" ph="UPDATE skier... " />
+            <marker date="1556715629678" expanded="true" signature="16645:16720" ph="UPDATE renta... " />
+            <marker date="1556715629678" expanded="true" signature="16942:17032" ph="INSERT INTO skier_equipment... " />
+            <marker date="1556715629678" expanded="true" signature="17271:17318" ph="UPDATE skis " />
+            <marker date="1556715629678" expanded="true" signature="17531:17581" ph="UPDATE boots... " />
+            <marker date="1556715629678" expanded="true" signature="17796:17850" ph="UPDATE helme... " />
+            <marker date="1556715629678" expanded="true" signature="18312:18404" ph="UPDATE skier... " />
+            <marker date="1556715629678" expanded="true" signature="18690:18802" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556715629678" expanded="true" signature="19237:19381" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556715629678" expanded="true" signature="21397:21482" ph="SELECT skier... skier_info" />
+            <marker date="1556715629678" expanded="true" signature="22099:22162" ph="SELECT first... customer" />
+            <marker date="1556715629678" expanded="true" signature="22784:22864" ph="SELECT renta... rentals" />
+            <marker date="1556715629678" expanded="true" signature="23349:23417" ph="SELECT ski_i... skis" />
+            <marker date="1556715629678" expanded="true" signature="24240:24322" ph="SELECT boot_... " />
+            <marker date="1556715629678" expanded="true" signature="25274:25334" ph="SELECT helme... " />
+            <marker date="1556715629678" expanded="true" signature="26215:26293" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556715629678" expanded="true" signature="26689:26799" ph="SELECT * FRO... skier_equipment" />
+            <marker date="1556715629678" expanded="true" signature="28343:28411" ph="SELECT ski_i... skis" />
+            <marker date="1556715629678" expanded="true" signature="29239:29321" ph="SELECT boot_... " />
+            <marker date="1556715629678" expanded="true" signature="30273:30333" ph="SELECT helme... " />
+            <marker date="1556715629678" expanded="true" signature="32276:32372" ph="UPDATE skier... " />
+            <marker date="1556715629678" expanded="true" signature="32644:32712" ph="UPDATE skis " />
+            <marker date="1556715629678" expanded="true" signature="33073:33170" ph="UPDATE skier... " />
+            <marker date="1556715629678" expanded="true" signature="33445:33516" ph="UPDATE boots... " />
+            <marker date="1556715629678" expanded="true" signature="33826:33924" ph="UPDATE skier... " />
+            <marker date="1556715629678" expanded="true" signature="34243:34318" ph="UPDATE helme... " />
+            <marker date="1556715629678" expanded="true" signature="34592:34693" ph="UPDATE skier... " />
+            <marker date="1556715629678" expanded="true" signature="34942:35058" ph="UPDATE renta... " />
+            <marker date="1556715629678" expanded="true" signature="35290:35377" ph="UPDATE renta... " />
+            <marker date="1556715629678" expanded="true" signature="35775:35866" ph="update renta... " />
+            <marker date="1556715629678" expanded="true" signature="36275:36576" ph="SELECT last_... customer" />
+            <marker date="1556715629678" expanded="true" signature="37122:37424" ph="SELECT last_... customer" />
+            <marker date="1556715629678" expanded="true" signature="38188:38490" ph="SELECT last_... customer" />
+            <marker date="1556715629678" expanded="true" signature="39231:39365" ph="SELECT skier... skier_info" />
+            <marker date="1556715629678" expanded="true" signature="40160:40415" ph="SELECT skier... skier_info" />
+            <marker date="1556715629678" expanded="true" signature="40271:40348" ph="SELECT skier... rentals_has_skiers" />
+            <marker date="1556715629678" expanded="true" signature="41195:41286" ph="SELECT ski_i... skier_equipment" />
+            <marker date="1556715629678" expanded="true" signature="42247:42315" ph="SELECT ski_i... skis" />
+            <marker date="1556715629678" expanded="true" signature="43138:43220" ph="SELECT boot_... " />
+            <marker date="1556715629678" expanded="true" signature="44828:44969" ph="INSERT INTO SKIER_INFO... " />
+            <marker date="1556715629678" expanded="true" signature="45336:45415" ph="SELECT renta... rentals" />
+            <marker date="1556715629678" expanded="true" signature="46149:46201" ph="SELECT first... customer" />
+            <marker date="1556715629678" expanded="true" signature="46149:46203" ph="SELECT first... customer" />
+            <marker date="1556715629678" expanded="true" signature="47287:47386" ph="SELECT ski_i... skis" />
+            <marker date="1556715629678" expanded="true" signature="47878:47991" ph="SELECT boot_... " />
+            <marker date="1556715629678" expanded="true" signature="48556:48647" ph="SELECT helme... " />
+            <marker date="1556715629678" expanded="true" signature="49704:49754" ph="UPDATE skis " />
+            <marker date="1556715629678" expanded="true" signature="49704:49756" ph="UPDATE skis " />
+            <marker date="1556715629678" expanded="true" signature="50023:50075" ph="UPDATE boots... " />
+            <marker date="1556715629678" expanded="true" signature="50023:50077" ph="UPDATE boots... " />
+            <marker date="1556715629678" expanded="true" signature="50345:50400" ph="UPDATE helme... " />
+            <marker date="1556715629678" expanded="true" signature="50345:50402" ph="UPDATE helme... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SkiClockAPI/helperFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3180">
+          <caret line="212" column="36" lean-forward="true" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -526,16 +649,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SkiClockAPI/helperFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="23" column="11" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="113">
+          <caret line="212" column="36" lean-forward="false" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SkiClockAPI/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="966" column="26" lean-forward="true" selection-start-line="966" selection-start-column="26" selection-end-line="966" selection-end-column="26" />
+        <state relative-caret-position="15">
+          <caret line="966" column="26" lean-forward="false" selection-start-line="966" selection-start-column="26" selection-end-line="966" selection-end-column="26" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1556715629678" expanded="true" signature="543:667" ph="SELECT ski_i... SKIS" />

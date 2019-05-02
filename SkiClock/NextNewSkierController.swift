@@ -35,7 +35,7 @@ class NextNewSkierController: UIViewController, UIPickerViewDelegate, UIPickerVi
         
         let jsonData = try? JSONSerialization.data(withJSONObject: skierJson)
         
-        let url = URL(string: "http://10.0.0.7:5000/new_skier")
+        let url = URL(string: "http://192.168.1.148:5000/new_skier")
         var request = URLRequest(url: url!)
         request.httpMethod = "POST"
         

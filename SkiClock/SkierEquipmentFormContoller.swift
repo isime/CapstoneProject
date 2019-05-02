@@ -249,7 +249,7 @@ class SkierEquipmentFormContoller: UIViewController {
         
         let jsonData = try? JSONSerialization.data(withJSONObject: equipmentJSON)
         
-        let url = URL(string: "http://10.0.0.7:5000/add_skier_equipment")
+        let url = URL(string: "http://192.168.1.148:5000/add_skier_equipment")
         var request = URLRequest(url: url!)
         request.httpMethod = "POST"
         
@@ -265,7 +265,7 @@ class SkierEquipmentFormContoller: UIViewController {
     }
     
     func getSkierCodeAndDin() {
-        let dinUrl = "http://10.0.0.7:5000/get_skier_code_din/" + String(height) + "/" + String(weight) + "/" + String(age) + "/" + String(skier_type) + "/" + String(sole_length)
+        let dinUrl = "http://192.168.1.148:5000/get_skier_code_din/" + String(height) + "/" + String(weight) + "/" + String(age) + "/" + String(skier_type) + "/" + String(sole_length)
         guard let url = URL(string: dinUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in

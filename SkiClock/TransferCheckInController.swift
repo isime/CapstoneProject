@@ -108,7 +108,7 @@ class TransferCheckInController: UIViewController {
     
     
     func getTransferInfo(){
-        let transferUrl = "http://10.0.0.7:5000/get_transfer/" + String(asset_id)
+        let transferUrl = "http://192.168.1.148:5000/get_transfer/" + String(asset_id)
         
         guard let url = URL(string: transferUrl)
             else { return }
@@ -164,7 +164,7 @@ class TransferCheckInController: UIViewController {
         
         let jsonData = try? JSONSerialization.data(withJSONObject: transferJson)
         
-        let url = URL(string: "http://10.0.0.7:5000/transfer_complete")
+        let url = URL(string: "http://192.168.1.148:5000/transfer_complete")
         var request = URLRequest(url: url!)
         request.httpMethod = "Post"
         request.httpBody = jsonData

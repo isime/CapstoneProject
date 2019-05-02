@@ -52,7 +52,7 @@ class SkisOutController: UIViewController, UITableViewDataSource, UITableViewDel
     }
     
     func getEquipment(){
-        let equipmentUrl = "http://10.0.0.7:5000/currently_out_skis/" + String(store_id)
+        let equipmentUrl = "http://192.168.1.148:5000/currently_out_skis/" + String(store_id)
         guard let url = URL(string: equipmentUrl) else { return }
         
         URLSession.shared.dataTask(with: url) { (data, response, err) in
